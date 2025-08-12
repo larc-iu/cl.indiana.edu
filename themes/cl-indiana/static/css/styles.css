@@ -1,0 +1,333 @@
+body {
+	font-size: 10pt;
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	color: black;
+	line-height: 14pt;
+	padding: 0;
+	min-width: 480px;
+	max-width: 1440px;
+	margin: auto;
+}
+
+h1 {
+	font: 30pt Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.subtitle {
+	text-align: center;
+	font: 12pt Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;	
+	font-weight: normal;
+}
+
+ul.circle {
+	list-style-type: circle;
+}
+
+a.right {
+	float: right;
+}
+
+nav#nav1 {
+	width: 100%;
+	background-color: #82786F;
+	text-align: center;
+	font-size: 11pt;
+	line-height: 1.8em;
+}
+
+nav#nav1 ul {
+	list-style: none;
+	display: inline;
+	margin: 0px;
+}
+
+nav#nav1 ul li {
+	display: inline;	
+	
+}
+
+nav#nav1 a {
+	display: inline-block;
+	color: white;
+	padding: 10px 30px 10px 30px;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 12pt;
+}
+
+nav#nav1 a:link, nav#nav1 a:visited {
+	background-color: #82786F;
+}
+
+nav#nav1 a:hover, nav#nav1 a:active {
+	background-color: #AEA79F;
+	border: none;
+}
+
+nav#nav1 #current {
+	background-color: #AEA79F;
+}
+
+#current_border {
+	border: 5px solid #990000;
+}
+
+#mywrapper {
+	float: left;
+	padding-left: 300px;
+	padding-right: 180px;
+	overflow: hidden;
+}
+
+#left_side {
+	position: relative;
+	float: left;
+	width: 150px;
+	right: 150px;
+	margin-left: -100%;
+}
+
+#content_area {
+	position: relative;
+	float: left;
+	left: 45px;
+	width: 100%;
+	padding: 0px;
+}
+
+#left_side ul {
+	text-align: center;
+	list-style: none;
+	padding: 0px;
+}
+
+#left_side a {
+	font-size: 12pt;
+	padding: 10px 0px 10px 0px;
+	margin: 0px 0px 5px 0px;
+	color: #4A3C31;
+	background-color: #E1D8B7;
+}
+
+#left_side a:link, a:visited {
+	text-decoration: none;
+	display: block;
+	border: 5px solid white;
+}
+
+#left_side a:hover {
+	text-decoration: none;
+	display: block;
+	color: #4A3C31;
+	border: 5px solid #990000;
+}
+
+div#pictureframe {
+	position: relative; 
+	width: 88%; 
+	height: 980px; 
+	margin: auto;
+}
+
+div#homepage_image {
+	position: relative;
+	width: 1152px;
+	height: 480px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#homepage_div1 {
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+
+#homepage_div2 {
+	right: 15px;
+	bottom: 15px;
+	position: absolute;
+}
+
+div#pictureframe img {
+	border: 5px white solid;
+	position: absolute;
+}
+
+img#img1 {
+	left:5%; 
+	top: 7%;
+	z-index: 1;
+}
+
+img#img2 {
+	left:18%; 
+	top: 5%;
+	z-index: 2;
+}
+
+img#img3 {
+	left:33%; 
+	top: 1%;
+	z-index: 10;
+}
+
+img#img4 {
+	left:64%; 
+	top: 2%;
+	z-index: 9;
+}
+
+img#img5 {
+	left:78%; 
+	top: 8%;
+	z-index: 6;
+}
+
+img#img6 {
+	left:2%; 
+	top: 52%;
+	z-index: 3;
+}
+
+img#img7 {
+	left:24%; 
+	top: 55%;
+	z-index: 7;
+}
+
+img#img8 {
+	left:41%; 
+	top: 57%;
+	z-index: 16;
+}
+
+img#img9 {
+	left:63%; 
+	top: 46%;
+	z-index: 19;
+}
+
+img#img10 {
+	left:82%; 
+	top: 50%;
+	z-index: 4;
+}
+
+img#img2_1 {
+	left: 3%;
+	top: 30%;
+	z-index: 11;
+}
+
+img#img2_2 {
+	left: 20%;
+	top: 27%;
+	z-index: 13;
+}
+
+img#img2_3 {
+	left: 40%;
+	top: 35%;
+	z-index: 15;
+}
+
+img#img2_4 {
+	left: 60%;
+	top: 25%;
+	z-index: 12;
+}
+
+img#img2_5 {
+	left: 80%;
+	top: 22%;
+	z-index: 14;
+}
+
+img#img4_1 {
+	left: 5%;
+	top: 70%;
+	z-index: 5;
+} 
+
+img#img4_2 {
+	left: 30%;
+	top: 80%;
+	z-index: 18;
+}
+
+img#img4_3 {
+	left: 50%;
+	top: 72%;
+	z-index: 17;
+}
+
+img#img4_4 {
+	left: 78%;
+	top: 65%;
+	z-index: 8;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #990000;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: crimson;
+}
+
+#wrapper {
+	float: left;
+	padding-left: 200px;	
+	overflow: hidden;
+
+}
+
+#leftside {
+	position: fixed;
+	float: left;
+	width: 200px;
+	background-color: #F7F7E8;
+	left: 0;
+	top: 10px;
+	}
+	
+#leftside ul {
+	list-style: none;
+	margin: 12px 0px 0px 12px;
+	padding: 0px;
+}
+
+#leftside li a:link, a:visited {
+	font-size: 12pt;
+	padding: 3px 0px 3px 3px;
+	background-color: #AEA79F;
+	display: block;
+	text-decoration: none;
+}
+
+address {
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: #AEA79F;
+	font-size: 9pt;
+	font-style: italic;
+	color: whitesmoke;
+	line-height: 12pt;
+	text-align: center;
+	padding-top: 20pt;
+	padding-bottom: 30pt;
+

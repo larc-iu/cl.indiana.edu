@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Computational Linguistics{% endblock %}</title>
+    <meta name="description" content="{% block description %}Computational Linguistics program at Indiana University Bloomington{% endblock %}">
+    <link href="{{ SITEURL }}/theme/css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://assets.iu.edu/favicon.ico" rel="icon"/>
+    <link href="https://assets.iu.edu/favicon.ico" rel="shortcut icon"/>
+    <link href="https://assets.iu.edu/brand/1.x/brand.css" rel="stylesheet" type="text/css" />
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <!-- IU header -->
+    <div id="branding-bar-v1" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity">
+        <div class="bar">
+            <div class="wrapper">
+                <h1 class="campus">
+                    <a href="http://www.iub.edu" title="Indiana University Bloomington">
+                        <img src="//assets.iu.edu/brand/1.x/trident-tab.gif" height="73" width="64" alt=" " />
+                        <span class="show-on-desktop" itemprop="name">Indiana University Bloomington</span>
+                        <span class="show-on-tablet" itemprop="name">Indiana University Bloomington</span>
+                        <span class="show-on-mobile" itemprop="name">IU Bloomington</span>
+                    </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- CL title, horizontal navigation bar -->
+    <header>
+        <div>
+            <h1>Computational Linguistics</h1>
+            <p class="subtitle"><a href="http://www.indiana.edu/~lingdept/">Department of Linguistics</a> &#124; <a href="http://college.indiana.edu/">College of Arts & Sciences</a></p>
+        </div>
+        
+        <div>
+            <nav id="nav1">
+                <ul>
+                    <li><a href="{{ SITEURL }}/index.html" {% if page and page.url == 'index.html' %}id="current"{% endif %}>Home</a></li>
+                    <li><a href="{{ SITEURL }}/programs.html" {% if page and 'programs' in page.url %}id="current"{% endif %}>Programs</a></li>
+                    <li><a href="{{ SITEURL }}/courses.html" {% if page and page.url == 'courses.html' %}id="current"{% endif %}>Courses</a></li>
+                    <li><a href="{{ SITEURL }}/projects.html" {% if page and page.url == 'projects.html' %}id="current"{% endif %}>Projects</a></li>
+                    <li><a href="{{ SITEURL }}/people.html" {% if page and page.url == 'people.html' %}id="current"{% endif %}>People</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <br />
+    
+    <!-- Main content -->
+    {% block content %}{% endblock %}
+    
+    <!-- Address and IU footer -->
+    <div>
+        <address>
+            Indiana University, Linguistics Dept. <br/>
+            Ballantine Hall 518 <br/>
+            1020 East Kirkwood Ave <br/>
+            Bloomington, IN 47405 <br/>
+            Contact: <a href="mailto:ftyers@indiana.edu">Francis Tyers</a>
+        </address>
+    </div>
+    
+    <!-- IU footer -->
+    <footer id="footer-v1" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity">
+        <div class="wrapper">
+            <p class="tagline">Fulfilling <span>the</span> Promise</p>
+            <p class="internal"><a href="https://www.indiana.edu/privacy/" id="privacy-policy-link">Privacy Notice</a></p>
+            <p class="copyright">
+                <a href="http://www.iu.edu/" class="block-iu"><img src="//assets.iu.edu/brand/1.x/block-iu.png" height="26" width="22" alt="Block IU" /></a>
+                <span class="line-break">
+                    <a href="http://www.iu.edu/copyright/index.shtml">Copyright</a> &#169;{{ CURRENT_YEAR }}
+                </span>
+                <span class="line-break">The Trustees of <a href="http://www.iu.edu/" itemprop="url"><span itemprop="name">Indiana University</span></a>,</span>
+                <span class="line-break"><a href="http://www.iu.edu/copyright/complaints.shtml">Copyright Complaints</a></span>
+            </p>
+        </div>
+    </footer>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
