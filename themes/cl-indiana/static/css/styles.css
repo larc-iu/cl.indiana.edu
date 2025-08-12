@@ -75,13 +75,6 @@ nav#nav1 #current {
 	border: 5px solid #990000;
 }
 
-#mywrapper {
-	float: left;
-	padding-left: 300px;
-	padding-right: 180px;
-	overflow: hidden;
-}
-
 #left_side {
 	position: relative;
 	float: left;
@@ -90,12 +83,11 @@ nav#nav1 #current {
 	margin-left: -100%;
 }
 
-#content_area {
-	position: relative;
-	float: left;
-	left: 45px;
+#mywrapper {
+	margin: 0 auto;
 	width: 100%;
-	padding: 0px;
+	padding: 0px 45px;
+	max-width: 1280px;
 }
 
 #left_side ul {
