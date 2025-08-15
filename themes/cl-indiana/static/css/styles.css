@@ -376,6 +376,82 @@ address {
 	font-size: 1.2em;
 }
 
+/* Course listing styles */
+.semester-header {
+	color: #990000;
+	border-bottom: 2px solid #990000;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 1.5em;
+}
+
+.courses-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	margin-bottom: 40px;
+}
+
+.course-card {
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 20px;
+	background-color: #fafafa;
+	transition: box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-header {
+	margin-bottom: 15px;
+}
+
+.course-code {
+	color: #990000;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+.course-title {
+	color: #333;
+	font-size: 1.3em;
+	font-weight: normal;
+	margin: 0;
+	line-height: 1.3;
+}
+
+.course-info {
+	line-height: 1.5;
+}
+
+.course-instructor {
+	margin: 0 0 10px 0;
+	font-size: 0.95em;
+}
+
+.course-description {
+	margin: 0;
+	color: #555;
+	font-size: 0.95em;
+	line-height: 1.6;
+}
+
+/* Responsive design for courses */
+@media (min-width: 768px) {
+	.courses-grid {
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	}
+	
+	.course-card {
+		padding: 25px;
+		max-width: 600px;
+	}
+}
+
 .person-placeholder {
 	width: 80px;
 	height: 80px;

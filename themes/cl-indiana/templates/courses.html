@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Computational Linguistics{% endblock %}
+
+{% block description %}{{ page.summary|default(page.title)|striptags }}{% endblock %}
+
+{% block content %}
+<div id="mywrapper">
+    <div id="content_area">
+        {{ page.content }}
+        
+        {% if yaml_data.courses %}
+            {# Create a list of tuples (sort_key, semester_name, courses) for sorting #}
+            {% set sorted_semesters = [] %}
+            {% for semester_key, courses in yaml_data.courses.semesters.items() %}
+                {# Parse semester key like "fall_2024" into sort components #}
+                {% set parts = semester_key.split('_') %}
+                {% if parts|length == 2 %}
+                    {% set season = parts[0] %}
+                    {% set year = parts[1]|int %}
+                    
+                    {# Convert season to number for sorting (spring=1, summer=2, fall=3) #}
+                    {% if season == 'spring' %}
+                        {% set season_num = 1 %}
+                    {% elif season == 'summer' %}
+                        {% set season_num = 2 %}
+                    {% elif season == 'fall' %}
+                        {% set season_num = 3 %}
+                    {% else %}
+                        {% set season_num = 0 %}
+                    {% endif %}
+                    
+                    {# Create sort key: negative year for desc order, then season_num #}
+                    {% set sort_key = (-year, -season_num) %}
+                    {% set display_name = season|title + " " + year|string %}
+                    {% set _ = sorted_semesters.append((sort_key, display_name, courses)) %}
+                {% endif %}
+            {% endfor %}
+            
+            {# Sort semesters chronologically (most recent first) #}
+            {% for sort_key, semester_name, courses in sorted_semesters|sort %}
+                <h2 class="semester-header">{{ semester_name }}</h2>
+                
+                <div class="courses-grid">
+                    {% for course in courses %}
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3 class="course-code">{{ course.code }}</h3>
+                                <h4 class="course-title">{{ course.title }}</h4>
+                            </div>
+                            <div class="course-info">
+                                <p class="course-instructor">
+                                    <strong>Instructor:</strong> 
+                                    {% if yaml_data.courses.instructors and course.instructor in yaml_data.courses.instructors %}
+                                        <a href="{{ yaml_data.courses.instructors[course.instructor] }}" target="_blank">{{ course.instructor }}</a>
+                                    {% else %}
+                                        {{ course.instructor }}
+                                    {% endif %}
+                                </p>
+                                {% if course.description %}
+                                    <p class="course-description">{{ course.description }}</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No course data available.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
