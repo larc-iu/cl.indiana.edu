@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Computational Linguistics{% endblock %}
+
+{% block description %}{{ page.summary|default(page.title)|striptags }}{% endblock %}
+
+{% block content %}
+<div id="mywrapper">
+    <div id="content_area">
+        {{ page.content }}
+        
+        {% if yaml_data.people %}
+            {% for section_name, people_list in yaml_data.people.items() %}
+                <h2>{{ section_name|replace('_', ' ')|title }}</h2>
+                
+                {# Create a list of tuples (sort_key, person) for sorting #}
+                {% set sorted_people = [] %}
+                {% for person in people_list %}
+                    {# All entries are now guaranteed to be objects with name and role #}
+                    {% if person.name is string %}
+                        {% set person_name = person.name %}
+                    {% else %}
+                        {% set person_name = person.name|join(' ') %}
+                    {% endif %}
+                    
+                    {# Determine sort key #}
+                    {% set name_parts = person_name.split() %}
+                    {% if name_parts|length > 1 %}
+                        {% set sort_key = name_parts[-1] %}
+                    {% else %}
+                        {% set sort_key = name_parts[0] %}
+                    {% endif %}
+                    
+                    {% set _ = sorted_people.append((sort_key.lower(), person, person_name)) %}
+                {% endfor %}
+                
+                <div class="people-grid">
+                    {% for sort_key, person, person_name in sorted_people|sort(attribute=0) %}
+                        <div class="person-card role-{{ person.role|default('other') }}">
+                            <div class="person-photo">
+                                {% if person.photo %}
+                                    <img src="{{ SITEURL }}/{{ person.photo }}" alt="{{ person_name }}" class="person-image">
+                                {% else %}
+                                    <div class="person-placeholder">
+                                        <span>
+                                            {% set name_parts = person_name.split() %}
+                                            {% if name_parts|length >= 2 %}
+                                                {{ name_parts[0][0]|upper }}{{ name_parts[-1][0]|upper }}
+                                            {% elif name_parts|length == 1 %}
+                                                {{ name_parts[0][:2]|upper }}
+                                            {% else %}
+                                                ??
+                                            {% endif %}
+                                        </span>
+                                    </div>
+                                {% endif %}
+                            </div>
+                            <div class="person-info">
+                                <h3 class="person-name">
+                                    {% if person.website %}
+                                        <a href="{{ person.website }}" target="_blank">{{ person_name }}</a>
+                                    {% else %}
+                                        {{ person_name }}
+                                    {% endif %}
+                                </h3>
+                                {% if person.degree %}
+                                    <p class="person-degree">{{ person.degree }}</p>
+                                {% endif %}
+                                {% if person.interests %}
+                                    <p class="person-interests">{{ person.interests }}</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No people data available.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

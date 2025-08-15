@@ -1,0 +1,246 @@
+current_members:
+  # faculty
+  - name: ["Damir", "Ćavar"]
+    degree: "Professor, Linguistics Department"
+    website: "http://cavar.me/damir/"
+    role: "faculty"
+  - name: ["Luke", "Gessler"]
+    degree: "Assistant Professor, Linguistics Department"
+    website: "http://lgessler.com/"
+    photo: "images/people/luke_gessler.jpg"
+    role: "faculty"
+  - name: ["Sandra", "Kuebler"]
+    degree: "Professor, Linguistics Department"
+    website: "/~skuebler/"
+    role: "faculty"
+  - name: ["Shuju", "Shu"]
+    role: "other"
+  - name: ["Francis M.", "Tyers"]
+    degree: "Professor, Linguistics Department"
+    website: "http://xixona.dlsi.ua.es/~fran/"
+    role: "faculty"
+
+  # associated faculty
+  - name: ["Kenneth", "de Jong"]
+    degree: "Professor, Linguistics Department and Cognitive Science Program"
+    website: "/~kdejong/"
+    role: "faculty"
+  - name: ["Michael N.", "Jones"]
+    degree: "Professor, Department of Psychological and Brain Sciences"
+    website: "http://psych.indiana.edu/faculty/jonesmn.php"
+    role: "faculty"
+  - name: ["Larry", "Moss"]
+    degree: "Professor, Department of Mathematics"
+    website: "http://www.math.indiana.edu/people/profile.phtml?id=lmoss"
+    role: "faculty"
+  - name: ["John", "Paolillo"]
+    degree: "Professor, School of Informatics and Computing"
+    website: "http://www.soic.indiana.edu/all-people/profile.html?profile_id=269"
+    role: "faculty"
+  - name: ["Allen", "Riddell"]
+    degree: "Assistant Professor, School of Informatics and Computing"
+    website: "https://www.ariddell.org/"
+    role: "faculty"
+  - name: ["Chung-Chieh (Ken)", "Shan"]
+    degree: "Professor, School of Informatics and Computing"
+    website: "http://homes.soic.indiana.edu/ccshan/"
+    role: "faculty"
+
+  # current students
+  - name: ["Muhammad", "Abdul-Mageed"]
+    degree: "PhD student"
+    website: "http://ella.slis.indiana.edu/~mabdulma/"
+    role: "phd"
+  - name: ["Vanessa", "Anderson"]
+    role: "other"
+  - name: ["Erin", "Arnold"]
+    role: "other"
+  - name: ["Yasmeen", "Bassas"]
+    role: "other"
+  - name: ["Eric", "Baucom"]
+    role: "other"
+  - name: ["Josh", "Bonner"]
+    role: "other"
+  - name: ["Rehj", "Cantrell"]
+    role: "other"
+  - name: ["Yue", "Chen"]
+    degree: "PhD student"
+    website: "https://chenyueg.github.io"
+    role: "phd"
+  - name: ["Sara", "Couture"]
+    role: "other"
+  - name: ["Daniel", "Dakota"]
+    role: "other"
+  - name: ["Joe", "Ducey"]
+    role: "other"
+  - name: ["Rebecca", "Hale"]
+    role: "other"
+  - name: ["Joshua", "Herring"]
+    role: "other"
+  - name: ["Misato", "Hiraga"]
+    role: "other"
+  - name: ["Hai", "Hu"]
+    degree: "PhD student"
+    website: "https://huhailinguist.github.io"
+    role: "phd"
+  - name: ["Noah", "Kaufman"]
+    role: "other"
+  - name: ["Mohammad Shahabuddin", "Khan"]
+    role: "other"
+  - name: ["Evgeny", "Kim"]
+    role: "other"
+  - name: ["Levi", "King"]
+    role: "other"
+  - name: ["Andrew", "Lamont"]
+    role: "other"
+  - name: ["Scott", "Ledbetter"]
+    role: "other"
+  - name: ["Wen", "Li"]
+    role: "other"
+  - name: ["Jordan", "Ling"]
+    role: "other"
+  - name: ["Braxton", "Meyer"]
+    role: "other"
+  - name: ["Tony", "Meyer"]
+    role: "other"
+  - name: ["Noor Abo", "Mokh"]
+    role: "other"
+  - name: ["Becca", "Morris"]
+    degree: "PhD student"
+    website: "https://beemorris.github.io"
+    role: "phd"
+  - name: ["Ikhyun", "Park"]
+    role: "other"
+  - name: ["Wren", "Romano"]
+    role: "other"
+  - name: ["Alex", "Rudnick"]
+    degree: "PhD student"
+    website: "http://alexr.cc"
+    role: "phd"
+  - name: ["Sarah", "Shenk"]
+    role: "other"
+  - name: ["Charese", "Smiley"]
+    role: "other"
+  - name: ["Amber", "Smith"]
+    role: "other"
+  - name: ["Kenneth", "Steimel"]
+    degree: "PhD student"
+    website: "https://ksteimel.duckdns.org"
+    role: "phd"
+  - name: ["Suriani", "Sulaiman"]
+    role: "other"
+  - name: ["Toshiyuki", "Uchino"]
+    role: "other"
+  - name: ["Anna", "White"]
+    role: "other"
+  - name: ["Anna", "Wilson"]
+    role: "other"
+
+alumni:
+  # doctoral
+  - name: ["Khaled", "El-Ghamry"]
+    degree: "Ph.D. (2004)"
+    role: "phd"
+  - name: ["Steve", "Grimes"]
+    degree: "Ph.D. (2010)"
+    role: "phd"
+  - name: ["Yu-Yin", "Hsu"]
+    degree: "Ph.D. (2014)"
+    role: "phd"
+  - name: ["Toshikazu", "Ikuta"]
+    degree: "Ph.D. (2008)"
+    role: "phd"
+  - name: ["Ross", "Israel"]
+    degree: "Ph.D. (2014)"
+    role: "phd"
+  - name: ["Emad", "Mohamed"]
+    degree: "Ph.D. (2010)"
+    role: "phd"
+  - name: ["Natalya", "Panteleyeva"]
+    degree: "Ph.D. (2010)"
+    role: "phd"
+  - name: ["Marwa", "Ragheb"]
+    degree: "Ph.D. (2014)"
+    role: "phd"
+  - name: ["Brian", "Riordan"]
+    degree: "Ph.D. (2007)"
+    role: "phd"
+  - name: ["Paul", "Rodrigues"]
+    degree: "Ph.D. (2012)"
+    role: "phd"
+  - name: ["David", "Rojas"]
+    degree: "Ph.D. (2010)"
+    role: "phd"
+  - name: ["Nathan", "Sanders"]
+    degree: "Ph.D. (2010)"
+    role: "phd"
+  - name: ["Kazuhiro", "Seki"]
+    degree: "Ph.D. (2006)"
+    role: "phd"
+  - name: ["Kam", "Woods"]
+    degree: "Ph.D. (2010)"
+    role: "phd"
+  - name: ["Ning", "Yu"]
+    degree: "Ph.D. (2011)"
+    role: "phd"
+
+  # masters
+  - name: ["Jay", "Askren"]
+    degree: "M.A. (2005)"
+    role: "ms"
+  - name: ["Fernando", "Balbachan"]
+    degree: "M.A. (2006)"
+    role: "ms"
+  - name: ["Daniel", "Bishop"]
+    degree: "M.A. (2012)"
+    role: "ms"
+  - name: ["Meagan", "Cockram"]
+    degree: "M.A. (2003)"
+    role: "ms"
+  - name: ["Siyuan", "Guo"]
+    degree: "M.A. (2014)"
+    website: "http://apophenia.me/"
+    role: "ms"
+  - name: ["Dustin", "Jefford"]
+    degree: "M.A. (2010)"
+    role: "ms"
+  - name: ["Charles", "Jochim"]
+    degree: "M.A. (2008)"
+    role: "ms"
+  - name: ["Amber", "Kennedy"]
+    degree: "M.A. (2005)"
+    role: "ms"
+  - name: ["Gary", "Krug"]
+    degree: "M.A. (2006)"
+    role: "ms"
+  - name: ["Erica H.", "La Vine"]
+    degree: "M.A. (2003)"
+    role: "ms"
+  - name: ["Tina", "May"]
+    degree: "M.A. (2012)"
+    role: "ms"
+  - name: ["Deborah", "McDonnell"]
+    degree: "M.A. (2005)"
+    role: "ms"
+  - name: ["Lwin", "Moe"]
+    degree: "M.A. (2010)"
+    website: "http://linguistlist.org/people/lwin.html"
+    role: "ms"
+  - name: ["Andrew", "Morin"]
+    degree: "M.A. (2007)"
+    role: "ms"
+  - name: ["Jason", "Quinley"]
+    degree: "M.A. (2009)"
+    role: "ms"
+  - name: ["Gabriel", "Recchia"]
+    degree: "M.A. (2012)"
+    role: "ms"
+  - name: ["Chris", "Riley"]
+    degree: "M.A. (2012)"
+    role: "ms"
+  - name: ["Melissa", "Roemmele"]
+    degree: "M.A. (2010)"
+    role: "ms"
+  - name: ["Kevin", "Stowe"]
+    degree: "M.A. (2010)"
+    role: "ms"

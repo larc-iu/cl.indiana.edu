@@ -31,7 +31,7 @@ STATIC_URL = '{path}'
 
 # Extension support
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['plugins.bibliography_markdown']
+PLUGINS = ['plugins.bibliography_markdown', 'plugins.yaml_loader']
 
 # Turn off default templates (including index)
 DIRECT_TEMPLATES = []
@@ -60,7 +60,7 @@ SLUGIFY_SOURCE = 'basename'
 TRANSLATION_ID_METADATA = 'path'
 
 # Field formatting
-FORMATTED_FIELDS = ['summary', 'title', 'path', 'url', 'save_as']
+FORMATTED_FIELDS = ['summary', 'path', 'url', 'save_as']
 
 # Remove custom content processor as we're using Markdown now
 
