@@ -367,10 +367,6 @@ address {
 	border-color: #28a745;
 }
 
-.role-other .person-image,
-.role-other .person-placeholder {
-	border-color: #ddd;
-}
 
 .intro {
 	font-size: 1.2em;

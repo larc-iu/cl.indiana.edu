@@ -1,246 +1,323 @@
 current_members:
   # faculty
-  - name: ["Damir", "Ćavar"]
-    degree: "Professor, Linguistics Department"
+  - name: ["Damir", "Cavar"]
+    degree: "Associate Professor, Department of Linguistics"
     website: "http://cavar.me/damir/"
     role: "faculty"
+    photo: "images/people/damir_cavar.jpg"
   - name: ["Luke", "Gessler"]
-    degree: "Assistant Professor, Linguistics Department"
+    degree: "Assistant Professor, Department of Linguistics"
     website: "http://lgessler.com/"
     photo: "images/people/luke_gessler.jpg"
     role: "faculty"
   - name: ["Sandra", "Kuebler"]
-    degree: "Professor, Linguistics Department"
+    degree: "Professor, Department of Linguistics"
     website: "/~skuebler/"
     role: "faculty"
-  - name: ["Shuju", "Shu"]
-    role: "other"
-  - name: ["Francis M.", "Tyers"]
-    degree: "Professor, Linguistics Department"
-    website: "http://xixona.dlsi.ua.es/~fran/"
+    photo: "images/people/sandra_kuebler.jpg"
+  - name: ["Shuju", "Shi"]
+    degree: "Assistant Professor, Department of Linguistics"
     role: "faculty"
+    photo: "images/people/shuju_shi.jpg"
+  - name: ["Francis M.", "Tyers"]
+    degree: "Associate Professor, Department of Linguistics"
+    role: "faculty"
+    photo: "images/people/francis_tyers.jpg"
 
   # associated faculty
   - name: ["Kenneth", "de Jong"]
-    degree: "Professor, Linguistics Department and Cognitive Science Program"
+    degree: "Professor, Department of Linguistics and Cognitive Science Program"
     website: "/~kdejong/"
     role: "faculty"
+    photo: "images/people/kenneth_de_jong.jpg"
   - name: ["Michael N.", "Jones"]
     degree: "Professor, Department of Psychological and Brain Sciences"
     website: "http://psych.indiana.edu/faculty/jonesmn.php"
     role: "faculty"
+    photo: "images/people/michael_jones.jpg"
   - name: ["Larry", "Moss"]
     degree: "Professor, Department of Mathematics"
     website: "http://www.math.indiana.edu/people/profile.phtml?id=lmoss"
     role: "faculty"
+    photo: "images/people/larry_moss.jpg"
   - name: ["John", "Paolillo"]
-    degree: "Professor, School of Informatics and Computing"
+    degree: "Associate Professor, Department of Informatics"
     website: "http://www.soic.indiana.edu/all-people/profile.html?profile_id=269"
     role: "faculty"
+    photo: "images/people/john_paolillo.jpg"
   - name: ["Allen", "Riddell"]
-    degree: "Assistant Professor, School of Informatics and Computing"
+    degree: "Associate Professor, Department of Information and Library Science"
     website: "https://www.ariddell.org/"
     role: "faculty"
+    photo: "images/people/allen_riddell.jpg"
   - name: ["Chung-Chieh (Ken)", "Shan"]
-    degree: "Professor, School of Informatics and Computing"
+    degree: "Professor, Department of Computer Science"
     website: "http://homes.soic.indiana.edu/ccshan/"
     role: "faculty"
+    photo: "images/people/chung_chieh_shan.jpg"
 
-  # current students
-  - name: ["Muhammad", "Abdul-Mageed"]
-    degree: "PhD student"
-    website: "http://ella.slis.indiana.edu/~mabdulma/"
+  # current
+  - name: ["Xiao", "Dong"]
+    degree: "M.S. student, CL"
+    role: "ms"
+  - name: ["Story", "Ellis"]
+    degree: "M.S. student, CL"
+    role: "ms"
+    photo: "images/people/story_ellis.jpg"
+  - name: ["Benjamin", "Glidden"]
+    degree: "M.S. student, CL"
+    role: "ms"
+    photo: "images/people/benjamin_glidden.jpg"
+  - name: ["Shusuke", "Hashimoto"]
+    degree: "M.S. student, CL"
+    role: "ms"
+  - name: ["Armando", "Hull"]
+    degree: "M.S. student, CL"
+    role: "ms"
+    photo: "images/people/armando_hull.jpg"
+  - name: ["Elias", "Naske" ]
+    degree: "M.S. student, CL"
+    role: "ms"
+    photo: "images/people/elias_naske.jpg"
+  - name: ["Shane", "Sparks"]
+    degree: "M.S. student, CL"
+    role: "ms"
+    photo: "images/people/shane_sparks.jpg"
+  - name: ["Beck", "Tabor"]
+    degree: "M.S. student, CL"
+    role: "ms"
+  - name: ["Grace", "Teuscher"]
+    degree: "M.S. student, CL"
+    role: "ms"
+    photo: "images/people/grace_teuscher.jpg"
+  - name: ["Jinyuan", "Wang"]
+    degree: "M.S. student, CL"
+    role: "ms"
+  - name: ["Charlotte", "Zhu"]
+    degree: "M.S. student, CL"
+    role: "ms"
+  - name: ["Abdullah", "Alharthi"]
+    degree: "M.A. student, CL"
+    role: "ms"
+    photo: "images/people/abdullah_alharthi.jpg"
+  - name: ["Muhammad", "Abdo"]
+    degree: "Ph.D. student, CL"
     role: "phd"
-  - name: ["Vanessa", "Anderson"]
-    role: "other"
-  - name: ["Erin", "Arnold"]
-    role: "other"
-  - name: ["Yasmeen", "Bassas"]
-    role: "other"
-  - name: ["Eric", "Baucom"]
-    role: "other"
-  - name: ["Josh", "Bonner"]
-    role: "other"
-  - name: ["Rehj", "Cantrell"]
-    role: "other"
+    photo: "images/people/muhammad_abdo.jpg"
+  - name: ["Meesum", "Alam"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    photo: "images/people/meesum_alam.jpg"
+  - name: ["Phakphum", "Artkaew"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    photo: "images/people/phakphum_artkaew.jpg"
+  - name: ["Sadia", "Ashraf"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    photo: "images/people/sadia_ashraf.jpg"
   - name: ["Yue", "Chen"]
-    degree: "PhD student"
-    website: "https://chenyueg.github.io"
+    degree: "Ph.D. student, CL"
     role: "phd"
-  - name: ["Sara", "Couture"]
-    role: "other"
-  - name: ["Daniel", "Dakota"]
-    role: "other"
-  - name: ["Joe", "Ducey"]
-    role: "other"
-  - name: ["Rebecca", "Hale"]
-    role: "other"
-  - name: ["Joshua", "Herring"]
-    role: "other"
-  - name: ["Misato", "Hiraga"]
-    role: "other"
-  - name: ["Hai", "Hu"]
-    degree: "PhD student"
-    website: "https://huhailinguist.github.io"
+    photo: "images/people/yue_chen.jpg"
+  - name: ["James", "Decatur"]
+    degree: "Ph.D. student, CL"
     role: "phd"
-  - name: ["Noah", "Kaufman"]
-    role: "other"
-  - name: ["Mohammad Shahabuddin", "Khan"]
-    role: "other"
-  - name: ["Evgeny", "Kim"]
-    role: "other"
-  - name: ["Levi", "King"]
-    role: "other"
-  - name: ["Andrew", "Lamont"]
-    role: "other"
-  - name: ["Scott", "Ledbetter"]
-    role: "other"
-  - name: ["Wen", "Li"]
-    role: "other"
-  - name: ["Jordan", "Ling"]
-    role: "other"
-  - name: ["Braxton", "Meyer"]
-    role: "other"
-  - name: ["Tony", "Meyer"]
-    role: "other"
-  - name: ["Noor Abo", "Mokh"]
-    role: "other"
-  - name: ["Becca", "Morris"]
-    degree: "PhD student"
-    website: "https://beemorris.github.io"
+    photo: "images/people/james_decatur.jpg"
+  - name: ["Alexandra", "Fort"]
+    degree: "Ph.D. student, CL"
     role: "phd"
-  - name: ["Ikhyun", "Park"]
-    role: "other"
-  - name: ["Wren", "Romano"]
-    role: "other"
-  - name: ["Alex", "Rudnick"]
-    degree: "PhD student"
-    website: "http://alexr.cc"
+    photo: "images/people/alexandra_fort.jpg"
+  - name: ["Nils", "Hjortnaes"]
+    degree: "Ph.D. student, CL"
     role: "phd"
-  - name: ["Sarah", "Shenk"]
-    role: "other"
-  - name: ["Charese", "Smiley"]
-    role: "other"
-  - name: ["Amber", "Smith"]
-    role: "other"
+    photo: "images/people/nils_hjortnaes.jpg"
+  - name: ["Anastasia", "Kuznetsova"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    photo: "images/people/anastasia_kuznetsova.jpg"
+  - name: ["Joseph", "Larson"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    photo: "images/people/joseph_larson.jpg"
+  - name: ["Siyi", "Lian"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+  - name: ["Esra", "Önal"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    photo: "images/people/esra_onal.jpg"
+  - name: ["Wenchen (Victor)", "Shi"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    photo: "images/people/victor_shi.jpg"
   - name: ["Kenneth", "Steimel"]
-    degree: "PhD student"
-    website: "https://ksteimel.duckdns.org"
+    degree: "Ph.D. student, CL"
     role: "phd"
-  - name: ["Suriani", "Sulaiman"]
-    role: "other"
-  - name: ["Toshiyuki", "Uchino"]
-    role: "other"
-  - name: ["Anna", "White"]
-    role: "other"
-  - name: ["Anna", "Wilson"]
-    role: "other"
+    photo: "images/people/kenneth_steimel.jpg"
+  - name: ["Rin", "Steitz"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    photo: "images/people/rin_steitz.jpg"
+  - name: ["Daniel", "Swanson"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    photo: "images/people/daniel_swanson.jpg"
+  - name: ["Shane", "Taylor"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    photo: "images/people/shane_taylor.jpg"
 
 alumni:
   # doctoral
   - name: ["Khaled", "El-Ghamry"]
-    degree: "Ph.D. (2004)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2004
   - name: ["Steve", "Grimes"]
-    degree: "Ph.D. (2010)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2010
   - name: ["Yu-Yin", "Hsu"]
-    degree: "Ph.D. (2014)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2014
   - name: ["Toshikazu", "Ikuta"]
-    degree: "Ph.D. (2008)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2008
   - name: ["Ross", "Israel"]
-    degree: "Ph.D. (2014)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2014
   - name: ["Emad", "Mohamed"]
-    degree: "Ph.D. (2010)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2010
   - name: ["Natalya", "Panteleyeva"]
-    degree: "Ph.D. (2010)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2010
   - name: ["Marwa", "Ragheb"]
-    degree: "Ph.D. (2014)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2014
   - name: ["Brian", "Riordan"]
-    degree: "Ph.D. (2007)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2007
   - name: ["Paul", "Rodrigues"]
-    degree: "Ph.D. (2012)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2012
   - name: ["David", "Rojas"]
-    degree: "Ph.D. (2010)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2010
   - name: ["Nathan", "Sanders"]
-    degree: "Ph.D. (2010)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2010
   - name: ["Kazuhiro", "Seki"]
-    degree: "Ph.D. (2006)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2006
   - name: ["Kam", "Woods"]
-    degree: "Ph.D. (2010)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2010
   - name: ["Ning", "Yu"]
-    degree: "Ph.D. (2011)"
+    degree: "Ph.D."
     role: "phd"
+    graduated: 2011
 
   # masters
   - name: ["Jay", "Askren"]
-    degree: "M.A. (2005)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2005
   - name: ["Fernando", "Balbachan"]
-    degree: "M.A. (2006)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2006
   - name: ["Daniel", "Bishop"]
-    degree: "M.A. (2012)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2012
   - name: ["Meagan", "Cockram"]
-    degree: "M.A. (2003)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2003
   - name: ["Siyuan", "Guo"]
-    degree: "M.A. (2014)"
+    degree: "M.A."
     website: "http://apophenia.me/"
     role: "ms"
+    graduated: 2014
   - name: ["Dustin", "Jefford"]
-    degree: "M.A. (2010)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2010
   - name: ["Charles", "Jochim"]
-    degree: "M.A. (2008)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2008
   - name: ["Amber", "Kennedy"]
-    degree: "M.A. (2005)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2005
   - name: ["Gary", "Krug"]
-    degree: "M.A. (2006)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2006
   - name: ["Erica H.", "La Vine"]
-    degree: "M.A. (2003)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2003
   - name: ["Tina", "May"]
-    degree: "M.A. (2012)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2012
   - name: ["Deborah", "McDonnell"]
-    degree: "M.A. (2005)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2005
   - name: ["Lwin", "Moe"]
-    degree: "M.A. (2010)"
+    degree: "M.A."
     website: "http://linguistlist.org/people/lwin.html"
     role: "ms"
+    graduated: 2010
   - name: ["Andrew", "Morin"]
-    degree: "M.A. (2007)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2007
   - name: ["Jason", "Quinley"]
-    degree: "M.A. (2009)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2009
   - name: ["Gabriel", "Recchia"]
-    degree: "M.A. (2012)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2012
   - name: ["Chris", "Riley"]
-    degree: "M.A. (2012)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2012
   - name: ["Melissa", "Roemmele"]
-    degree: "M.A. (2010)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2010
   - name: ["Kevin", "Stowe"]
-    degree: "M.A. (2010)"
+    degree: "M.A."
     role: "ms"
+    graduated: 2010
+  - name: ["Melissa", "Lieffers"]
+    degree: "M.A., CL"
+    role: "ms"
+    graduated: 2025
+    photo: "images/people/melissa_lieffers.jpg"
+  - name: ["Hai", "Hu"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2021
+    photo: "images/people/hai_hu.jpg"
+    website: "https://huhailinguist.github.io/"

@@ -2,7 +2,7 @@ instructors:
   "Luke Gessler": "https://lgessler.com"
   "Francis M. Tyers": "http://xixona.dlsi.ua.es/~fran/"
   "Sandra Kuebler": "/~skuebler/"
-  "Damir Ćavar": "http://cavar.me/damir/"
+  "Damir Cavar": "http://cavar.me/damir/"
 
 semesters:
   fall_2025:
@@ -24,7 +24,7 @@ semesters:
       description: "This course explores advanced topics and current trends in speech processing, focusing on applications in areas such as speech recognition, synthesis, and speech enhancement. The course will cover both theoretical foundations and practical implementation aspects, including recent advances in machine learning and deep learning as applied to speech processing."
     - code: "LING-L 645"
       title: "Advanced Natural Language Processing"
-      instructor: "Damir Ćavar"
+      instructor: "Damir Cavar"
       description: "An introduction to statistical models and machine learning paradigms in NLP. Covers basic notions in probability and information theory, focusing on the concepts needed for NLP, including Markov Models. Additional topics may include word sense disambiguation, text categorization, and statistical alignment methods and their use in machine translation."
     - code: "LING-L 665"
       title: "Applying Machine Learning Techniques in Computational Linguistics"
@@ -32,4 +32,4 @@ semesters:
       description: "An introduction to machine learning (ML) methods for computational linguistics (CL). We begin by covering basic concepts in ML before turning to foundational ML methods in CL. Throughout, students develop practical skills in ML programming in Python, relying on libraries such as NumPy, PyTorch, and scikit-learn. Students will develop an understanding of the mathematical details underlying modern models used in CL, and will have practical skills for creating and using ML models for CL."
     - code: "LING-L 715"
       title: "Seminar: Knowledge Graphs, Large Language Models, RAGs, and Graph-based Reasoning"
-      instructor: "Damir Ćavar"
+      instructor: "Damir Cavar"

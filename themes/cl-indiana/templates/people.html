@@ -13,7 +13,7 @@
             {% for section_name, people_list in yaml_data.people.items() %}
                 <h2>{{ section_name|replace('_', ' ')|title }}</h2>
                 
-                {# Create a list of tuples (sort_key, person) for sorting #}
+                {# Create a list of tuples for sorting #}
                 {% set sorted_people = [] %}
                 {% for person in people_list %}
                     {# All entries are now guaranteed to be objects with name and role #}
@@ -23,20 +23,29 @@
                         {% set person_name = person.name|join(' ') %}
                     {% endif %}
                     
-                    {# Determine sort key #}
+                    {# Determine name sort key for alphabetical sorting #}
                     {% set name_parts = person_name.split() %}
                     {% if name_parts|length > 1 %}
-                        {% set sort_key = name_parts[-1] %}
+                        {% set name_sort_key = name_parts[-1] %}
                     {% else %}
-                        {% set sort_key = name_parts[0] %}
+                        {% set name_sort_key = name_parts[0] %}
                     {% endif %}
                     
-                    {% set _ = sorted_people.append((sort_key.lower(), person, person_name)) %}
+                    {# Create composite sort key based on section #}
+                    {% if section_name == 'alumni' and person.graduated %}
+                        {# For alumni: sort by graduation year (most recent first), then by name #}
+                        {% set sort_key = (-person.graduated, name_sort_key.lower()) %}
+                    {% else %}
+                        {# For current members: sort alphabetically by surname #}
+                        {% set sort_key = (0, name_sort_key.lower()) %}
+                    {% endif %}
+                    
+                    {% set _ = sorted_people.append((sort_key, person, person_name)) %}
                 {% endfor %}
                 
                 <div class="people-grid">
                     {% for sort_key, person, person_name in sorted_people|sort(attribute=0) %}
-                        <div class="person-card role-{{ person.role|default('other') }}">
+                        <div class="person-card role-{{ person.role }}">
                             <div class="person-photo">
                                 {% if person.photo %}
                                     <img src="{{ SITEURL }}/{{ person.photo }}" alt="{{ person_name }}" class="person-image">
@@ -64,7 +73,7 @@
                                     {% endif %}
                                 </h3>
                                 {% if person.degree %}
-                                    <p class="person-degree">{{ person.degree }}</p>
+                                    <p class="person-degree">{{ person.degree }}{% if person.graduated %} {{ person.graduated }}{% endif %}</p>
                                 {% endif %}
                                 {% if person.interests %}
                                     <p class="person-interests">{{ person.interests }}</p>
