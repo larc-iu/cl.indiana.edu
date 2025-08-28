@@ -20,3 +20,7 @@ The minor consists of a minimum of 15 credit hours of course work, including the
   * Seminar courses such as PSY-P 657, LING-L 700, or LING-L 715 
 
 A grade point average of 3.0 (B) or higher must be achieved in these courses.
+
+## Bulletin
+
+See also [the graduate bulletin](https://bulletins.iu.edu/iu/gradschool/2024-2025/programs/bloomington/linguistics/index.shtml).

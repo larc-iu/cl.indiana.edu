@@ -56,3 +56,6 @@ After nomination to candidacy, the student will select a research committee comp
 
 Oral defense of dissertation. This defense is normally open.
 
+## Bulletin
+
+See also [the graduate bulletin](https://bulletins.iu.edu/iu/gradschool/2024-2025/programs/bloomington/linguistics/index.shtml).

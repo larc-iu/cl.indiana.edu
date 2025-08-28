@@ -88,3 +88,6 @@ Satisfied by LING-L 555 Programming for Computational Linguists, a computer prog
 
 ## Statistics Requirement
 Satisfied by STAT-S 520 Introduction to Statistics, COGS-Q 520 Math and Logic for Cognitive Science, or an equivalent course approved by the department.
+
+## Bulletin
+See also [the graduate bulletin](https://bulletins.iu.edu/iu/gradschool/2024-2025/programs/bloomington/linguistics/index.shtml).

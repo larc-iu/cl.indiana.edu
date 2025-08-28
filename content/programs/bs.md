@@ -2,7 +2,6 @@ Title: B.S. in Computational Linguistics
 Template: programs
 
 # B.S. in Computational Linguistics
-
 Core requirements of BS in Computational Linguistics program include:
 
 ## Linguistics
@@ -21,4 +20,5 @@ Core requirements of BS in Computational Linguistics program include:
 - CSCI-C 211 Introduction to Computer Science
 - CSCI-C 212 Introduction to Software Systems
 
-There are also math & logic requirements, electives, and other basic requirements. [See more details.](/BS.pdf)
+There are also math & logic requirements, electives, and other basic requirements.
+For complete details, see [the undergraduate bulletin](https://bulletin.college.indiana.edu/programs/4255/COMPLINGBS/).

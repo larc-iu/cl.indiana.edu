@@ -2,11 +2,12 @@ Title: 3+2 Joint B.S./M.S. in Computational Linguistics
 Template: programs
 
 # 3+2 Joint B.S./M.S. in Computational Linguistics
+
 ## Core Requirements
 
 Undergraduate Level:
 
-* LING-L 203  Introduction to Linguistic Analysis (formerly LING-L303)
+* LING-L 203  Introduction to Linguistic Analysis (formerly LING-L 303)
 * LING-L 306  Phonetics
 * LING-L 307  Phonology
 * LING-L 310  Syntax
@@ -28,4 +29,4 @@ Graduate Level:
 * CSCI-B 401  Fundamentals of Computing Theory / CSCI-B 403 Introduction to Algorithm Design and Analysis
 * ILS-Z 534  Information Retrieval: Theory and Practice
 
-There are also math & logic requirements, electives, and other basic requirements. See [more details](/BSMS.pdf).
+There are also math & logic requirements, electives, and other basic requirements. See [the undergraduate bulletin](https://bulletin.college.indiana.edu/programs/4255/CMLNBSMSBS/) for more detail.
