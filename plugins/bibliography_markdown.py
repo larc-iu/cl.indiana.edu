@@ -224,7 +224,7 @@ class BibliographyProcessor:
         return html_text
     
     def _process_href_commands(self, text):
-        """Process \href LaTeX commands to HTML <a> tags, handling nested braces properly."""
+        """Process \\href LaTeX commands to HTML <a> tags, handling nested braces properly."""
         result = ""
         i = 0
         while i < len(text):
