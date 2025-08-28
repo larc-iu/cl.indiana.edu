@@ -1,29 +1,29 @@
-current_members:
-  # faculty
-  - name: ["Damir", "Cavar"]
+core_faculty:
+  - name: [ "Damir", "Cavar" ]
     degree: "Associate Professor, Department of Linguistics"
     website: "http://cavar.me/damir/"
     role: "faculty"
     photo: "images/people/damir_cavar.jpg"
-  - name: ["Luke", "Gessler"]
+  - name: [ "Luke", "Gessler" ]
     degree: "Assistant Professor, Department of Linguistics"
     website: "http://lgessler.com/"
     photo: "images/people/luke_gessler.jpg"
     role: "faculty"
-  - name: ["Sandra", "Kuebler"]
+  - name: [ "Sandra", "Kuebler" ]
     degree: "Professor, Department of Linguistics"
     website: "/~skuebler/"
     role: "faculty"
     photo: "images/people/sandra_kuebler.jpg"
-  - name: ["Shuju", "Shi"]
+  - name: [ "Shuju", "Shi" ]
     degree: "Assistant Professor, Department of Linguistics"
     role: "faculty"
     photo: "images/people/shuju_shi.jpg"
-  - name: ["Francis M.", "Tyers"]
+  - name: [ "Francis M.", "Tyers" ]
     degree: "Associate Professor, Department of Linguistics"
     role: "faculty"
     photo: "images/people/francis_tyers.jpg"
 
+associated_faculty:
   # associated faculty
   - name: ["Kenneth", "de Jong"]
     degree: "Professor, Department of Linguistics and Cognitive Science Program"
@@ -56,6 +56,7 @@ current_members:
     role: "faculty"
     photo: "images/people/chung_chieh_shan.jpg"
 
+current_students:
   # current
   - name: ["Xiao", "Dong"]
     degree: "M.S. student, CL"
