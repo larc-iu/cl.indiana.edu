@@ -1,7 +1,7 @@
 core_faculty:
   - name: [ "Damir", "Cavar" ]
     degree: "Associate Professor, Department of Linguistics"
-    website: "http://cavar.me/damir/"
+    website: "https://damir.cavar.me/"
     role: "faculty"
     photo: "images/people/damir_cavar.jpg"
   - name: [ "Luke", "Gessler" ]
