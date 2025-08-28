@@ -5,15 +5,15 @@ Template: programs
 Core requirements of BS in Computational Linguistics program include:
 
 ## Linguistics
-- LING-L 203 Introduction to Linguistic Analysis (formerly LING-L303)
+- LING-L 203 Introduction to Linguistic Analysis
 - LING-L 306 Phonetics
 - LING-L 307 Phonology
 - LING-L 310 Syntax
 
 ## Computational
 - LING-L 245 Language and Computers
-- LING-L 415 Corpus Linguistics (new course)
-- LING-L 435 Foundational Skills in Computational Linguistics (new course)
+- LING-L 415 Corpus Linguistics
+- LING-L 435 Foundational Skills in Computational Linguistics
 - LING-L 445 Introduction to Computational Linguistics
 
 ## Computer Science

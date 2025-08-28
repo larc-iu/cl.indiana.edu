@@ -1,9 +1,9 @@
-Title: Ph.D. in Computational Linguistics
+Title: Ph.D. in Linguistics with a Concentration in Computational Linguistics
 Template: programs
 
-# Ph.D. in Computational Linguistics
+# Ph.D. in Linguistics with a Concentration in Computational Linguistics
 
-**Note: These are the most recent requirements updated in 2022-2023.**
+**Note: These are the [most recent requirements updated in 2024-2025](https://bulletins.iu.edu/iu/gradschool/2024-2025/programs/bloomington/linguistics/index.shtml).**
 If you started earlier, please check your year's requirements in the [bulletins](https://bulletins.iu.edu/iub/index.html) under "University Graduate School".
 
 The Concentration in Computational Linguistics combines both general linguistic coursework and computational specific coursework.
@@ -55,7 +55,3 @@ After nomination to candidacy, the student will select a research committee comp
 ## Final Examination
 
 Oral defense of dissertation. This defense is normally open.
-
-## Bulletin
-
-See also [the graduate bulletin](https://bulletins.iu.edu/iu/gradschool/2024-2025/programs/bloomington/linguistics/index.shtml).

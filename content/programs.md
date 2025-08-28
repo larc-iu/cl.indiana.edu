@@ -15,5 +15,5 @@ Computational linguistics is an interdisciplinary field that addresses the use o
 
 <!-- * **[M.A. in Computational Linguistics](programs/ma.html)** -->
 * **[M.S. in Computational Linguistics](programs/ms.html)**  
-* **[Ph.D. in Computational Linguistics](programs/phd.html)**  
+* **[Ph.D. in Linguistics with a Concentration in Computational Linguistics](programs/phd.html)**  
 * **[Ph.D. Minor in Computational Linguistics](programs/phd_minor.html)**  

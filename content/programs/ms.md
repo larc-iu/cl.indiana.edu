@@ -3,7 +3,7 @@ Template: programs
 
 # M.S. in Computational Linguistics
 
-**Note: These are the most recent requirements updated in 2024-2025.**
+**Note: These are the [most recent requirements updated in 2024-2025](https://bulletins.iu.edu/iu/gradschool/2024-2025/programs/bloomington/linguistics/index.shtml).**
 If you started earlier, please check your year's requirements in the [bulletins](https://bulletins.iu.edu/iub/index.html) under "University Graduate School".
 
 ## Core Requirements
@@ -22,39 +22,38 @@ Core requirements include:
 Additionally, students will choose one of the three following areas of specialization and complete its requirements:
 
 ### Language and Engineering
-One of:
-
-* LING-L 543 Phonology
-* LING-L 543 Syntax
-* COGS-Q 520 Math & Logic for Cognitive Science
-* LING-L 544 Morphology
-* LING-L 546 Semantics
-* LING-L 670 Typology
-* LING-L 614 Alternative Syntactic Theories
-* LING-L 615 Corpus Linguistics
+* One of:
+    * LING-L 543 Phonology
+    * LING-L 543 Syntax
+    * COGS-Q 520 Math & Logic for Cognitive Science
+    * LING-L 544 Morphology
+    * LING-L 546 Semantics
+    * LING-L 670 Typology
+    * LING-L 614 Alternative Syntactic Theories
+    * LING-L 615 Corpus Linguistics
 
 ### Natural Language Processing
 
 * One of:
-  * LING-L 503 Intro Ling
-  * LING-L 542 Phonology
-  * LING-L 543 Syntax
-  * LING-L 544 Morphology
-  * LING-L 546 Semantics
-  * LING-L 670 Typology
-  * LING-L 675 Advanced Machine Learning for Computational Linguistics
+    * LING-L 503 Intro Ling
+    * LING-L 542 Phonology
+    * LING-L 543 Syntax
+    * LING-L 544 Morphology
+    * LING-L 546 Semantics
+    * LING-L 670 Typology
+    * LING-L 675 Advanced Machine Learning for Computational Linguistics
 * One of:
-  * CSCI-B 555 Machine Learning
-  * CSCI-B 551 Elements of Artificial Intelligence
+    * CSCI-B 555 Machine Learning
+    * CSCI-B 551 Elements of Artificial Intelligence
 
 ### Speech Processing
 * LING-L 641 Advanced Phonetics
 * LING-L 635 Applications of Speech Processing
 * One of:
-  * ENGR-E 511 Machine Learning for Signal Processing
-  * LING-L 675 Advanced Machine Learning for Computational Linguistics
-  * CSCI-B 555 Machine Learning
-  * CSCI-B 551 Elements of Artificial Intelligence
+    * ENGR-E 511 Machine Learning for Signal Processing
+    * LING-L 675 Advanced Machine Learning for Computational Linguistics
+    * CSCI-B 555 Machine Learning
+    * CSCI-B 551 Elements of Artificial Intelligence
 
 ## Electives
 Two additional electives must be taken from the following:
@@ -88,6 +87,3 @@ Satisfied by LING-L 555 Programming for Computational Linguists, a computer prog
 
 ## Statistics Requirement
 Satisfied by STAT-S 520 Introduction to Statistics, COGS-Q 520 Math and Logic for Cognitive Science, or an equivalent course approved by the department.
-
-## Bulletin
-See also [the graduate bulletin](https://bulletins.iu.edu/iu/gradschool/2024-2025/programs/bloomington/linguistics/index.shtml).
