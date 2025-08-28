@@ -69,6 +69,7 @@ current_students:
     degree: "M.S. student, CL"
     role: "ms"
     photo: "images/people/benjamin_glidden.jpg"
+    website: "https://github.com/bglid"
   - name: ["Shusuke", "Hashimoto"]
     degree: "M.S. student, CL"
     role: "ms"
