@@ -321,7 +321,7 @@ alumni:
     photo: "images/people/hai_hu.jpg"
     website: "https://huhailinguist.github.io/"
   - name: ["Anastasia", "Kuznetsova"]
-    degree: "Ph.D. student, CL"
+    degree: "Ph.D., CL"
     role: "phd"
     graduated: 2025
     photo: "images/people/anastasia_kuznetsova.jpg"
