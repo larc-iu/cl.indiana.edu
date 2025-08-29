@@ -135,10 +135,6 @@ current_students:
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/nils_hjortnaes.jpg"
-  - name: ["Anastasia", "Kuznetsova"]
-    degree: "Ph.D. student, CL"
-    role: "phd"
-    photo: "images/people/anastasia_kuznetsova.jpg"
   - name: ["Joseph", "Larson"]
     degree: "Ph.D. student, CL"
     role: "phd"
@@ -324,3 +320,8 @@ alumni:
     graduated: 2021
     photo: "images/people/hai_hu.jpg"
     website: "https://huhailinguist.github.io/"
+  - name: ["Anastasia", "Kuznetsova"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    graduated: 2025
+    photo: "images/people/anastasia_kuznetsova.jpg"
