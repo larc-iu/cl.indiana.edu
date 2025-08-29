@@ -115,6 +115,7 @@ current_students:
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/phakphum_artkaew.jpg"
+    website: "https://phakphumadev.github.io/"
   - name: ["Sadia", "Ashraf"]
     degree: "Ph.D. student, CL"
     role: "phd"
