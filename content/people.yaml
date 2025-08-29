@@ -85,6 +85,7 @@ current_students:
     degree: "M.S. student, CL"
     role: "ms"
     photo: "images/people/shane_sparks.jpg"
+    website: "https://www.linkedin.com/in/shane-a-sparks/"
   - name: ["Beck", "Tabor"]
     degree: "M.S. student, CL"
     role: "ms"
