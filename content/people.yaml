@@ -81,6 +81,7 @@ current_students:
     degree: "M.S. student, CL"
     role: "ms"
     photo: "images/people/elias_naske.jpg"
+    website: "https://www.linkedin.com/in/elias-naske/"
   - name: ["Shane", "Sparks"]
     degree: "M.S. student, CL"
     role: "ms"
