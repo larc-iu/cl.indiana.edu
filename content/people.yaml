@@ -178,6 +178,7 @@ current_students:
     degree: "Ph.D. student, CL"
     role: "phd"
     images: "images/people/andrew_davis.jpg"
+    website: "https://www.linkedin.com/in/adavis94/"
   - name: ["Snigdha", "Khanna"]
     degree: "Ph.D. student, CL"
     role: "phd"
