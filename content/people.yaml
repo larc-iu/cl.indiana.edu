@@ -109,6 +109,7 @@ current_students:
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/muhammad_abdo.jpg"
+    website: "https://www.linkedin.com/in/muhsabrys/"
   - name: ["Meesum", "Alam"]
     degree: "Ph.D. student, CL"
     role: "phd"
