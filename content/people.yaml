@@ -94,6 +94,7 @@ current_students:
     degree: "M.S. student, CL"
     role: "ms"
     photo: "images/people/grace_teuscher.jpg"
+    website: "https://www.linkedin.com/in/grace-teuscher-3363011b7/"
   - name: ["Jinyuan", "Wang"]
     degree: "M.S. student, CL"
     role: "ms"
