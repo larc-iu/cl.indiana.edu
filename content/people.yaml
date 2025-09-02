@@ -101,10 +101,6 @@ current_students:
   - name: ["Charlotte", "Zhu"]
     degree: "M.S. student, CL"
     role: "ms"
-  - name: ["Abdullah", "Alharthi"]
-    degree: "M.A. student, CL"
-    role: "ms"
-    photo: "images/people/abdullah_alharthi.jpg"
   - name: ["Muhammad", "Abdo"]
     degree: "Ph.D. student, CL"
     role: "phd"
@@ -172,6 +168,18 @@ current_students:
     role: "phd"
     photo: "images/people/shane_taylor.jpg"
     website: "https://www.linkedin.com/in/staylor3713/"
+  - name: ["Holly", "Lopez"]
+    degree: "Ph.D. student, Information Science"
+    role: "phd"
+  - name: ["Jacob", "Striebel"]
+    degree: "Ph.D. student, Computer Science"
+    role: "phd"
+  - name: ["Andrew", "Davis"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
+  - name: ["Snigdha", "Khanna"]
+    degree: "Ph.D. student, CL"
+    role: "phd"
 
 alumni:
   # doctoral
