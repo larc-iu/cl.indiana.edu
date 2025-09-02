@@ -177,6 +177,7 @@ current_students:
   - name: ["Andrew", "Davis"]
     degree: "Ph.D. student, CL"
     role: "phd"
+    images: "images/people/andrew_davis.jpg"
   - name: ["Snigdha", "Khanna"]
     degree: "Ph.D. student, CL"
     role: "phd"
