@@ -150,7 +150,7 @@ current_students:
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/victor_shi.jpg"
-    website: "www.linkedin.com/in/wenchen-victor-shi"
+    website: "https://www.linkedin.com/in/wenchen-victor-shi"
   - name: ["Kenneth", "Steimel"]
     degree: "Ph.D. student, CL"
     role: "phd"
