@@ -177,11 +177,14 @@ current_students:
   - name: ["Andrew", "Davis"]
     degree: "Ph.D. student, CL"
     role: "phd"
-    images: "images/people/andrew_davis.jpg"
+    photo: "images/people/andrew_davis.jpg"
     website: "https://www.linkedin.com/in/adavis94/"
   - name: ["Snigdha", "Khanna"]
-    degree: "Ph.D. student, CL"
+    degree: "Ph.D. student, CL; Ph.D. student, Cognitive Science"
+    graduated: "M.S., CL 2025"
     role: "phd"
+    photo: "images/people/snigdha_khanna"
+    website: "https://www.linkedin.com/in/k-snigdha/"
 
 alumni:
   # doctoral
