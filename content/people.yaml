@@ -248,6 +248,17 @@ alumni:
     degree: "Ph.D."
     role: "phd"
     graduated: 2011
+  - name: ["Hai", "Hu"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2021
+    photo: "images/people/hai_hu.jpg"
+    website: "https://huhailinguist.github.io/"
+  - name: ["Anastasia", "Kuznetsova"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2025
+    photo: "images/people/anastasia_kuznetsova.jpg"
 
   # masters
   - name: ["Jay", "Askren"]
@@ -333,14 +344,15 @@ alumni:
     role: "ms"
     graduated: 2025
     photo: "images/people/melissa_lieffers.jpg"
-  - name: ["Hai", "Hu"]
-    degree: "Ph.D., CL"
-    role: "phd"
-    graduated: 2021
-    photo: "images/people/hai_hu.jpg"
-    website: "https://huhailinguist.github.io/"
-  - name: ["Anastasia", "Kuznetsova"]
-    degree: "Ph.D., CL"
-    role: "phd"
+  - name: ["Elya", "Brown"]
+    degree: "M.S., CL"
+    role: "ms"
     graduated: 2025
-    photo: "images/people/anastasia_kuznetsova.jpg"
+    photo: "images/people/elya_brown.jpg"
+    website: "https://www.kveliere.com/"
+  - name: ["Wen", "Li"]
+    degree: "M.A., CL"
+    role: "ms"
+    graduated: 2014
+    photo: "images/people/wen_li.jpg"
+    website: "https://www.linkedin.com/in/wenli-nlp/"
