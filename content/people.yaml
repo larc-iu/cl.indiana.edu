@@ -335,6 +335,8 @@ alumni:
     degree: "M.A."
     role: "ms"
     graduated: 2010
+    photo: "images/people/melissa_roemmele.jpg"
+    website: "https://roemmele.github.io/"
   - name: ["Kevin", "Stowe"]
     degree: "M.A."
     role: "ms"
