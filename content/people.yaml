@@ -271,6 +271,7 @@ alumni:
     degree: "Ph.D., CL"
     role: "phd"
     graduated: 2021
+    website: "https://www.linkedin.com/in/leviaking/"
 
   # masters
   - name: ["Jay", "Askren"]
