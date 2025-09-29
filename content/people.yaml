@@ -259,6 +259,18 @@ alumni:
     role: "phd"
     graduated: 2025
     photo: "images/people/anastasia_kuznetsova.jpg"
+  - name: ["Charese", "Smiley"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2018
+  - name: ["Anthony", "Meyer"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2019
+  - name: ["Levi", "King"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2021
 
   # masters
   - name: ["Jay", "Askren"]
