@@ -279,6 +279,10 @@ alumni:
     graduated: 2012
     photo: "images/people/muhammad_abdul_mageed.jpg"
     website: "https://mageed.arts.ubc.ca/"
+  - name: ["Olga", "Scrivner"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2015
 
   # masters
   - name: ["Jay", "Askren"]
