@@ -263,6 +263,7 @@ alumni:
     degree: "Ph.D., CL"
     role: "phd"
     graduated: 2018
+    website: "https://scholar.google.com/citations?user=V2UiOeoAAAAJ"
   - name: ["Anthony", "Meyer"]
     degree: "Ph.D., CL"
     role: "phd"
@@ -272,6 +273,16 @@ alumni:
     role: "phd"
     graduated: 2021
     website: "https://www.linkedin.com/in/leviaking/"
+  - name: ["Muhammad", "Abdul-Mageed"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2012
+    photo: "images/people/muhammad_abdul_mageed.jpg"
+    website: "https://mageed.arts.ubc.ca/"
+  - name: ["Olga", "Scrivner"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2015
 
   # masters
   - name: ["Jay", "Askren"]
