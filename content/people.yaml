@@ -382,3 +382,7 @@ alumni:
     graduated: 2014
     photo: "images/people/wen_li.jpg"
     website: "https://www.linkedin.com/in/wenli-nlp/"
+  - name: ["Everett", "Green"]
+    degree: "M.A., CL"
+    role: "ms"
+    graduated: 2023
