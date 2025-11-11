@@ -386,3 +386,10 @@ alumni:
     degree: "M.A., CL"
     role: "ms"
     graduated: 2023
+    photo: "images/people/everett_green.jpg"
+    website: "https://www.linkedin.com/in/everett-green-3493b4a7/"
+  - name: ["Jeremy", "Dickinson"]
+    degree: "M.A., CL"
+    role: "ms"
+    graduated: 2023
+    photo: "images/people/jeremy_dickinson.jpg"
