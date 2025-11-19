@@ -2,7 +2,11 @@ Title: Home
 Template: people
 DataFile: people.yaml
 
-<div id="homepage_image"><a href="./images/People_pano.jpg" class="centered"><img src="./images/People_pano.jpg" height="480" alt="Door of MM401" /></a></div>
+<div id="homepage_image">
+  <a href="./images/People_pano.jpg?v=2" class="centered">
+    <img src="./images/People_pano.jpg?v=2" height="480" alt="Several faculty and students from IU linguistics" />
+  </a>
+</div>
 
 <p class="intro">
 <strong>IU Computational Linguistics</strong> is a group of faculty, student, and staff researchers based in <a href="https://bloomington.iu.edu/">Indiana University Bloomington</a>'s <a href="https://linguistics.indiana.edu/">Department of Linguistics</a>.
