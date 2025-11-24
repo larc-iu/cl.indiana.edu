@@ -14,8 +14,6 @@ We work with natural language using computational methods in order to investigat
 Our areas of strength include <strong>natural language processing (NLP)</strong>, <strong>speech processing</strong>, <strong>corpus linguistics</strong>, <strong>low-resource NLP</strong>, and more.
 </p>
 
-Check out <a href="https://cl.indiana.edu/clingding.html" target="_blank">CLingDing</a> and the <a href="https://docs.google.com/document/d/1j9N4fAyOhQhuvd5D6Mqtlke20OCPBjlAPtmj2UbEUvs/edit?usp=sharing">Dependency Parsing Reading Group</a> — The IU Computational Linguistics Discussion/Reading Groups
-
-Corpora resources can be found at: <a href="https://cl.indiana.edu/corpora.html">Corpora locations</a>
+Current members: see <a href="https://cl.indiana.edu/clingding.html" target="_blank">our colloquium schedule</a>.
 
 <hr>
