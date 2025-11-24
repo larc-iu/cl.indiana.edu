@@ -10,6 +10,7 @@ The program also serves as a strong foundation for those entering Ph.D. programs
 
 **No prior experience with computer programming or linguistics is required.** 
 The curriculum is designed to accommodate students from diverse academic backgrounds, and students may also choose one of three tracks to specialize in:
+
 * **Natural Language Processing** is for students who are interested in processing textual data.
 * **Speech Processing** serves students who are most interested in models which process speech data.
 * **Language and Engineering** is suitable for students who want to deepen their knowledge of linguistic analysis.
