@@ -1,5 +1,5 @@
-Title: Stories
+Title: Alumni Stories
 Template: stories
 
-Our graduates go on to research labs, industry, and faculty positions around the world.
-Here they talk about how they found their way into computational linguistics, what they worked on at Indiana, and where it took them.
+Our graduates find employment in academic and industry positions at excellent organizations across the world.
+Here are some of their stories, exploring how they found their way into our program, how the program grew their skills, and what they have achieved since graduating.
