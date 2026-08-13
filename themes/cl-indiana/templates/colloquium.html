@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Computational Linguistics{% endblock %}
+
+{% block description %}ClingDing, the computational linguistics colloquium at Indiana University Bloomington{% endblock %}
+
+{% macro semester_meta(a) %}
+    {% if a.when or a.where %}
+    <p class="semester-meta">
+        {%- if a.when %}{{ a.when }}{% endif -%}
+        {%- if a.when and a.where %} &#124; {% endif -%}
+        {%- if a.where %}{{ a.where }}{% endif -%}
+    </p>
+    {% endif %}
+{% endmacro %}
+
+{% block content %}
+<div id="mywrapper">
+    <div id="content_area">
+        {{ page.content }}
+
+        {% set semesters = articles|selectattr('category.name', 'equalto', 'colloquium')|sort(attribute='date', reverse=True)|list %}
+
+        {% for a in semesters %}
+            {% if loop.first %}
+            {# Current semester stays open; everything older collapses. #}
+            <section class="semester">
+                <h2 class="home-heading">{{ a.title }}</h2>
+                {{ semester_meta(a) }}
+                <div class="semester-body">{{ a.content }}</div>
+            </section>
+            {% else %}
+            <details class="semester semester--past">
+                <summary class="semester-summary">{{ a.title }}</summary>
+                {{ semester_meta(a) }}
+                <div class="semester-body">{{ a.content }}</div>
+            </details>
+            {% endif %}
+        {% else %}
+            <p>No schedules yet.</p>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

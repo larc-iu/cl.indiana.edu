@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Computational Linguistics{% endblock %}
+
+{% block description %}Conversations with graduates of IU Computational Linguistics{% endblock %}
+
+{% block content %}
+<div id="mywrapper">
+    <div id="content_area">
+        {{ page.content }}
+
+        <div class="story-list">
+            {% for article in articles|selectattr('category.name', 'equalto', 'stories')|sort(attribute='date', reverse=True) %}
+            <article class="story-card">
+                {% if article.image %}
+                <div class="story-card-photo">
+                    <img src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.alum|default(article.title) }}" class="story-image" />
+                </div>
+                {% endif %}
+                <div class="story-card-body">
+                    <h2 class="story-card-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+                    {% if article.alum %}<p class="story-card-alum">{{ article.alum }}</p>{% endif %}
+                    <p class="story-card-summary">{{ article.summary|striptags|truncate(280) }}</p>
+                </div>
+            </article>
+            {% else %}
+            <p>No stories yet.</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

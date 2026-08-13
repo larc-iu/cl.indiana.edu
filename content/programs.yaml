@@ -1,0 +1,24 @@
+# Programs shown on the /programs.html index, in display order.
+# To retire a program, comment out its entry: the page itself stays published
+# and reachable by direct URL, it just stops being linked from the index.
+sections:
+  - title: "Graduate Programs"
+    programs:
+      # - name: "M.A. in Computational Linguistics"
+      #   url: "programs/ma.html"
+      - name: "M.S. in Computational Linguistics"
+        url: "programs/ms.html"
+      # Short label for the card; the page keeps the full official degree name.
+      - name: "Ph.D. in Computational Linguistics"
+        url: "programs/phd.html"
+      - name: "Ph.D. Minor in Computational Linguistics"
+        url: "programs/phd_minor.html"
+
+  - title: "Undergraduate Programs"
+    programs:
+      # - name: "B.S. in Computational Linguistics"
+      #   url: "programs/bs.html"
+      # - name: "Joint B.S./M.S. in Computational Linguistics"
+      #   url: "programs/bs_ms.html"
+      - name: "Minor in Computational Linguistics"
+        url: "programs/minor.html"

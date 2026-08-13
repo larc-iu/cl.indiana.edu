@@ -1,11 +1,23 @@
+:root {
+	/* IU's official typeface. brand.css already @font-faces it from fonts.iu.edu
+	   and the IU header/footer already pull it down, so using it here for display
+	   type costs no extra request and ties the title to the bar above it. */
+	--display-font: "BentonSansRegular", "Helvetica Neue", Arial, sans-serif;
+}
+
 body {
-	font-size: 10pt;
-	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 11pt;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: black;
-	line-height: 14pt;
+	/* Unitless: a length here (it was 14pt) inherits as a fixed pixel value to
+	   every descendant regardless of its font size, which broke line boxes for
+	   both large headings and small links. */
+	line-height: 1.5;
 	padding: 0;
 	min-width: 480px;
-	max-width: 1440px;
+	/* No max-width here: the body runs the full viewport so the IU branding bar,
+	   nav, address block and IU footer are full-bleed. Content is constrained by
+	   #mywrapper instead, and both IU bars centre their own inner .wrapper. */
 	margin: auto;
 	/* Sticky footer: the page fills the viewport and .site-main takes up the
 	   slack, so the address block and IU footer sit at the bottom of short
@@ -18,6 +30,8 @@ body {
 
 .site-main {
 	flex: 1 0 auto;
+	/* Breathing room so page content never butts against the address block. */
+	padding-bottom: 60px;
 }
 
 h1 {
@@ -99,6 +113,9 @@ nav#nav1 #current {
 	width: 100%;
 	padding: 0px 45px;
 	max-width: 1280px;
+	/* Without this the 45px side padding is added to the 100% width, pushing
+	   the wrapper wider than the viewport and clipping content on the right. */
+	box-sizing: border-box;
 }
 
 #left_side ul {
@@ -138,6 +155,7 @@ div#pictureframe {
 div#homepage_image {
 	position: relative;
 	width: 1152px;
+	max-width: 100%;
 	height: 480px;
 	margin: auto;
 	overflow: hidden;
@@ -533,4 +551,486 @@ address {
 	.person-photo {
 		margin-right: 12px;
 	}
+}
+
+/* ---------------------------------------------------------------
+   News and stories
+   --------------------------------------------------------------- */
+
+/* Single post (news item or story) */
+.post-back {
+	margin: 0 0 20px 0;
+	font-size: 0.95em;
+}
+
+/* Article pages get one centred column, so the back link, title, meta and body
+   share a measure and the leftover space is balanced instead of all falling on
+   the right. Individual elements then don't need their own max-widths. */
+.post-page {
+	max-width: 54em;
+	margin: 0 auto;
+}
+
+.post-title {
+	font: 26pt Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1.2;
+	margin: 0 0 8px 0;
+}
+
+.post-meta {
+	color: #666;
+	font-size: 0.9em;
+	margin: 0 0 24px 0;
+}
+
+.post-image {
+	display: block;
+	width: 160px;
+	height: 160px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 3px solid #AEA79F;
+	margin: 0 0 24px 0;
+}
+
+/* Constrain the measure: the body is up to 1440px wide, which is
+   unreadable for running prose. */
+.post-body {
+	line-height: 1.65;
+}
+
+.post-body p {
+	margin: 0 0 1.1em 0;
+}
+
+/* In the interview stories, a paragraph that is nothing but bold text is an
+   interviewer question. Styling it via :only-child avoids needing any special
+   markup in the Markdown. */
+.post-body p > strong:only-child {
+	display: block;
+	color: #990000;
+	font-size: 1.05em;
+	margin-top: 1.8em;
+}
+
+.post-body blockquote {
+	margin: 1.4em 0;
+	padding: 0 0 0 20px;
+	border-left: 3px solid #AEA79F;
+	color: #444;
+	font-style: italic;
+}
+
+/* News feed */
+.post-list {
+	margin: 20px 0 40px 0;
+}
+
+.post-card {
+	border-bottom: 1px solid #e0e0e0;
+	padding: 18px 0;
+}
+
+.post-card:last-child {
+	border-bottom: none;
+}
+
+.post-card-meta {
+	color: #82786F;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	margin: 0 0 4px 0;
+}
+
+.post-card-title {
+	font-size: 1.25em;
+	line-height: 1.3;
+	margin: 0 0 6px 0;
+}
+
+.post-card-summary {
+	margin: 0;
+	color: #555;
+}
+
+/* Story cards */
+.story-list {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	margin: 20px 0 40px 0;
+}
+
+.story-card {
+	display: flex;
+	align-items: flex-start;
+	gap: 18px;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	background-color: #fafafa;
+	padding: 20px;
+	transition: box-shadow 0.2s ease;
+}
+
+.story-card:hover {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-card-photo {
+	flex-shrink: 0;
+}
+
+.story-image {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 2px solid #AEA79F;
+}
+
+.story-card-body {
+	flex: 1;
+	min-width: 0;
+}
+
+.story-card-title {
+	font-size: 1.3em;
+	line-height: 1.3;
+	margin: 0 0 4px 0;
+}
+
+.story-card-alum {
+	color: #82786F;
+	font-size: 0.9em;
+	margin: 0 0 8px 0;
+}
+
+.story-card-summary {
+	margin: 0;
+	color: #555;
+}
+
+/* Home page sections */
+.home-section {
+	margin-top: 60px;
+}
+
+/* Spacing between sections comes from .home-section's margin alone, so the
+   lists inside don't add a second, compounding gap. */
+.home-section .explore-grid,
+.home-section .post-list,
+.home-section .story-list {
+	margin-bottom: 0;
+}
+
+/* Flex with baseline alignment rather than floating the link: a float made the
+   heading's line box taller, which pushed the underline down on sections that
+   have a "more" link and left the bars misaligned between sections. */
+.home-heading {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 16px;
+	/* Unitless, so the small "more" link scales its line box to its own font
+	   size. The inherited `line-height: 14pt` from body is a fixed length, which
+	   gave the link a taller box than its text and dropped the underline. */
+	line-height: 1.25;
+	color: #990000;
+	border-bottom: 2px solid #990000;
+	padding-bottom: 5px;
+	margin-bottom: 16px;
+	font-size: 1.5em;
+}
+
+.home-more {
+	font-size: 0.62em;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+/* Muted until hover. The :link/:visited pseudo-classes are needed to outrank
+   the global `a:link` colour rule. */
+.home-more:link,
+.home-more:visited {
+	color: #82786F;
+}
+
+.home-more:hover,
+.home-more:active {
+	color: #990000;
+}
+
+/* Explore and Recent News sit side by side once there's room; below that they
+   stack and the news items take the full width. */
+.home-columns {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+@media (min-width: 1000px) {
+	.home-columns {
+		grid-template-columns: 1fr 1fr;
+		column-gap: 44px;
+	}
+
+	/* In two-column mode the Explore cards stack one per row, so the column
+	   stays narrow enough to sit beside the news list. */
+	.home-columns .explore-grid {
+		grid-template-columns: 1fr;
+	}
+
+}
+
+.explore-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	gap: 20px;
+	margin: 20px 0 40px 0;
+}
+
+/* Shared card idiom: the home page Explore grid and the programs index.
+   Both are title-only, so the card centers its label vertically. */
+.explore-card,
+.program-card {
+	display: flex;
+	align-items: center;
+	/* border-box so min-height is the card's actual height rather than being
+	   added to the padding; cards with longer labels still grow past it. */
+	box-sizing: border-box;
+	min-height: 90px;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	background-color: #fafafa;
+	padding: 20px;
+	transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.explore-card:hover,
+.program-card:hover {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	border-color: #AEA79F;
+}
+
+.explore-title,
+.program-card-title {
+	color: #990000;
+	font-size: 1.15em;
+	font-weight: bold;
+	line-height: 1.35;
+}
+
+@media (min-width: 900px) {
+	.story-list {
+		grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+	}
+}
+
+@media (max-width: 600px) {
+	.story-card {
+		flex-direction: column;
+	}
+
+	.post-title {
+		font-size: 20pt;
+	}
+}
+
+/* Programs index. Same card idiom as the home page Explore grid, but the cards
+   are title-only, so they center their label rather than stacking two lines. */
+.program-group-heading {
+	font-size: 1.15em;
+	color: #333;
+	margin: 26px 0 0 0;
+}
+
+/* auto-fill rather than auto-fit: a section with a single program keeps a
+   normal-width card instead of stretching it across the whole row. */
+.program-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+	margin: 16px 0 34px 0;
+}
+
+
+/* Soft background motifs on the Explore cards. Painted by a ::before rather
+   than on the card itself, so one opacity controls the whole wash and the
+   label stays fully opaque. */
+.explore-card {
+	position: relative;
+	overflow: hidden;
+	/* Fixed, not stretched to match the news column: the cards must not change
+	   size as posts come and go. 117px is chosen so three cards plus their two
+	   20px gaps total 391px, which is about the height of a three-post news
+	   list, leaving the two columns level in the common case. */
+	height: 117px;
+}
+
+.explore-card::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.14;
+	transition: opacity 0.2s ease;
+	pointer-events: none;
+}
+
+/* On hover the photo comes up to nearly full strength and the label becomes
+   white with a dark outline, which holds contrast over all three photos
+   without covering them. */
+.explore-card:hover::before {
+	opacity: 0.92;
+}
+
+/* The label sits in normal flow, so it needs lifting above the positioned wash.
+   The stroke is declared here at zero alpha so hover only animates its colour,
+   which fades the outline in instead of popping it. paint-order matters: without
+   it the stroke is centred on the glyph and eats into the letterforms. */
+.explore-title {
+	position: relative;
+	z-index: 1;
+	-webkit-text-stroke: 3px rgba(255, 255, 255, 0);
+	paint-order: stroke fill;
+	transition: text-shadow 0.2s ease, -webkit-text-stroke-color 0.2s ease;
+}
+
+/* The fill stays brand crimson, so nothing flips colour on hover — only the
+   light outline comes up behind it to hold the label off the photo. */
+.explore-card:hover .explore-title {
+	-webkit-text-stroke-color: rgba(255, 255, 255, 0.95);
+	/* Degrades to a soft light halo on engines lacking text-stroke. */
+	text-shadow: 0 0 4px rgba(255, 255, 255, 0.75), 0 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.explore-card--people::before {
+	background-image: url("../../images/People_pano.jpg");
+	/* Bias upward: a centred crop of this photo lands on torsos, not faces. */
+	background-position: center 28%;
+}
+
+.explore-card--courses::before {
+	background-image: url("../../images/explore-books.jpg");
+}
+
+.explore-card--programs::before {
+	background-image: url("../../images/explore-diploma.jpg");
+}
+
+/* ---------------------------------------------------------------
+   Colloquium schedule
+   --------------------------------------------------------------- */
+
+.semester {
+	margin-top: 34px;
+}
+
+/* Each semester's entries are a markdown definition list: the date is the term,
+   the talk is the definition. Grid puts them in two aligned columns without the
+   source file needing any table syntax. */
+.semester-body dl {
+	display: grid;
+	grid-template-columns: 11em 1fr;
+	/* No column-gap: the rule is drawn as border-top on the two cells, and a gap
+	   would break each row's line into two visibly separate segments. Spacing
+	   between the columns comes from padding on the date instead. */
+	column-gap: 0;
+	margin: 0;
+	max-width: 54em;
+}
+
+.semester-body dt,
+.semester-body dd {
+	margin: 0;
+	padding: 9px 0;
+	border-top: 1px solid #ececec;
+}
+
+.semester-body dt {
+	padding-right: 20px;
+	font-weight: bold;
+	color: #990000;
+}
+
+.semester-meta {
+	color: #666;
+	font-size: 0.95em;
+	margin: 0 0 14px 0;
+}
+
+/* Past semesters collapse behind a disclosure. */
+details.semester--past {
+	border-top: 1px solid #e0e0e0;
+	margin-top: 0;
+	padding: 4px 0;
+}
+
+.semester-summary {
+	cursor: pointer;
+	color: #990000;
+	font-weight: bold;
+	font-size: 1.15em;
+	padding: 10px 0;
+	list-style-position: outside;
+}
+
+.semester-summary:hover {
+	color: crimson;
+}
+
+details.semester--past .semester-meta {
+	margin-top: 8px;
+}
+
+details.semester--past .semester-body {
+	padding-bottom: 14px;
+}
+
+@media (max-width: 700px) {
+	/* Stack date above entry rather than squeezing a 10em column. */
+	.semester-body dl {
+		display: block;
+	}
+
+	.semester-body dt {
+		border-top: 1px solid #ececec;
+		padding-bottom: 0;
+	}
+
+	.semester-body dd {
+		border-top: none;
+		padding-top: 2px;
+	}
+}
+
+/* ---------------------------------------------------------------
+   Display type
+   --------------------------------------------------------------- */
+
+/* Headings and card titles use the IU display face; body copy stays in the
+   system sans. Declared last so it wins over the `font:` shorthands above,
+   which set a family as a side effect of setting a size. */
+h1,
+.subtitle,
+.post-title,
+.home-heading,
+.semester-header,
+.semester-summary,
+.program-group-heading,
+.post-card-title,
+.story-card-title,
+.course-code,
+.course-title,
+.explore-title,
+.program-card-title,
+.person-name {
+	font-family: var(--display-font);
 }

@@ -38,9 +38,12 @@
             <nav id="nav1">
                 <ul>
                     <li><a href="{{ SITEURL }}/index.html" {% if page and page.url == 'index.html' %}id="current"{% endif %}>Home</a></li>
-                    <li><a href="{{ SITEURL }}/programs/ms.html" {% if page and 'programs/ms.html' in page.url %}id="current"{% endif %}>MS in CL</a></li>
+                    <li><a href="{{ SITEURL }}/people.html" {% if page and page.url == 'people.html' %}id="current"{% endif %}>People</a></li>
                     <li><a href="{{ SITEURL }}/programs.html" {% if page and 'programs.html' in page.url %}id="current"{% endif %}>Programs</a></li>
                     <li><a href="{{ SITEURL }}/courses.html" {% if page and page.url == 'courses.html' %}id="current"{% endif %}>Courses</a></li>
+                    <li><a href="{{ SITEURL }}/news.html" {% if (page and page.url == 'news.html') or (article and article.category.name == 'news') %}id="current"{% endif %}>News</a></li>
+                    <li><a href="{{ SITEURL }}/stories.html" {% if (page and page.url == 'stories.html') or (article and article.category.name == 'stories') %}id="current"{% endif %}>Stories</a></li>
+                    <li><a href="{{ SITEURL }}/colloquium.html" {% if (page and page.url == 'colloquium.html') or (article and article.category.name == 'colloquium') %}id="current"{% endif %}>Colloquium</a></li>
                     <!--<li><a href="{{ SITEURL }}/projects.html" {% if page and page.url == 'projects.html' %}id="current"{% endif %}>Projects</a></li>-->
                 </ul>
             </nav>

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Computational Linguistics{% endblock %}
+
+{% block description %}News and updates from IU Computational Linguistics{% endblock %}
+
+{% block content %}
+<div id="mywrapper">
+    <div id="content_area">
+        {{ page.content }}
+
+        <div class="post-list">
+            {% for article in articles|selectattr('category.name', 'equalto', 'news')|sort(attribute='date', reverse=True) %}
+            <article class="post-card">
+                <p class="post-card-meta">{{ article.locale_date }}</p>
+                <h2 class="post-card-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+                <p class="post-card-summary">{{ article.summary|striptags|truncate(300) }}</p>
+            </article>
+            {% else %}
+            <p>No news posts yet.</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

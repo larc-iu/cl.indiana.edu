@@ -1,6 +1,5 @@
 Title: Home
-Template: people
-DataFile: people.yaml
+Template: home
 
 <div id="homepage_image">
   <a href="./images/People_pano.jpg?v=2" class="centered">
@@ -13,7 +12,3 @@ DataFile: people.yaml
 We work with natural language using computational methods in order to investigate scientific questions about language and build intelligent systems for processing language.
 Our areas of strength include <strong>natural language processing (NLP)</strong>, <strong>speech processing</strong>, <strong>corpus linguistics</strong>, <strong>low-resource NLP</strong>, and more.
 </p>
-
-Current members: see <a href="https://cl.indiana.edu/clingding.html" target="_blank">our colloquium schedule</a>.
-
-<hr>

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% set cat = article.category.name %}
+{% set is_story = cat == 'stories' %}
+{% set is_semester = cat == 'colloquium' %}
+{% set index_url = {'stories': 'stories.html', 'colloquium': 'colloquium.html'}.get(cat, 'news.html') %}
+{% set index_label = {'stories': 'All stories', 'colloquium': 'All semesters'}.get(cat, 'All news') %}
+
+{% block title %}{{ article.title }} - Computational Linguistics{% endblock %}
+
+{% block description %}{{ article.summary|striptags|truncate(160) }}{% endblock %}
+
+{% block content %}
+<div id="mywrapper">
+    <div id="content_area" class="post-page">
+        <p class="post-back"><a href="{{ SITEURL }}/{{ index_url }}">&larr; {{ index_label }}</a></p>
+
+        <article class="post">
+            <h1 class="post-title">{{ article.title }}</h1>
+            {% if is_semester %}
+                {# The article date only exists to order semesters, so show the
+                   meeting time and place instead of a publication date. #}
+                {% if article.when or article.where %}
+                <p class="post-meta">
+                    {%- if article.when %}{{ article.when }}{% endif -%}
+                    {%- if article.when and article.where %} &#124; {% endif -%}
+                    {%- if article.where %}{{ article.where }}{% endif -%}
+                </p>
+                {% endif %}
+            {% else %}
+                <p class="post-meta">
+                    <time datetime="{{ article.date.strftime('%Y-%m-%d') }}">{{ article.locale_date }}</time>
+                    {% if is_story and article.alum %}&#124; {{ article.alum }}{% endif %}
+                </p>
+            {% endif %}
+            {% if article.image %}
+            <img class="post-image" src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.alum|default(article.title) }}" />
+            {% endif %}
+            <div class="post-body {% if is_semester %}semester-body{% endif %}">
+                {{ article.content }}
+            </div>
+        </article>
+    </div>
+</div>
+{% endblock %}

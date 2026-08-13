@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Computational Linguistics{% endblock %}
+
+{% block description %}Computational Linguistics degree programs at Indiana University Bloomington{% endblock %}
+
+{% block content %}
+<div id="mywrapper">
+    <div id="content_area">
+        {{ page.content }}
+
+        <h2 class="home-heading">Degree Programs</h2>
+
+        {% for section in yaml_data.programs.sections %}
+            {# A section whose entries are all commented out yields none, so skip it. #}
+            {% if section.programs %}
+            <h3 class="program-group-heading">{{ section.title }}</h3>
+            <div class="program-grid">
+                {% for program in section.programs %}
+                <a class="program-card" href="{{ SITEURL }}/{{ program.url }}">
+                    <span class="program-card-title">{{ program.name }}</span>
+                </a>
+                {% endfor %}
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

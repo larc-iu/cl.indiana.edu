@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Computational Linguistics - Indiana University Bloomington{% endblock %}
+
+{% block description %}Computational Linguistics at Indiana University Bloomington{% endblock %}
+
+{# Defined once so the no-news case can render Explore full-width without
+   duplicating the markup. #}
+{% macro explore_section() %}
+<section class="home-section">
+    <h2 class="home-heading">Explore</h2>
+    <div class="explore-grid">
+        <a class="explore-card explore-card--programs" href="{{ SITEURL }}/programs.html">
+            <span class="explore-title">Degree Programs</span>
+        </a>
+        <a class="explore-card explore-card--people" href="{{ SITEURL }}/people.html">
+            <span class="explore-title">People</span>
+        </a>
+        <a class="explore-card explore-card--courses" href="{{ SITEURL }}/courses.html">
+            <span class="explore-title">Courses</span>
+        </a>
+    </div>
+</section>
+{% endmacro %}
+
+{% block content %}
+<div id="mywrapper">
+    <div id="content_area">
+        {{ page.content }}
+
+        {# Recent news: at most HOME_NEWS_MAX posts, none older than the cutoff.
+           Falls away entirely during quiet stretches rather than showing stale items. #}
+        {% set recent_news = [] %}
+        {% for a in articles|selectattr('category.name', 'equalto', 'news')|sort(attribute='date', reverse=True) %}
+            {% if (a.date.year * 12 + a.date.month) > HOME_NEWS_CUTOFF_MONTH and recent_news|length < HOME_NEWS_MAX %}
+                {% set _ = recent_news.append(a) %}
+            {% endif %}
+        {% endfor %}
+
+        {% if recent_news %}
+        <div class="home-columns">
+            {{ explore_section() }}
+
+            <section class="home-section">
+                <h2 class="home-heading">Recent News <a class="home-more" href="{{ SITEURL }}/news.html">All news &rarr;</a></h2>
+                <div class="post-list">
+                    {% for article in recent_news %}
+                    <article class="post-card">
+                        <p class="post-card-meta">{{ article.locale_date }}</p>
+                        <h3 class="post-card-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+                        <p class="post-card-summary">{{ article.summary|striptags|truncate(220) }}</p>
+                    </article>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+        {% else %}
+            {# No recent news, so Explore keeps the full width to itself. #}
+            {{ explore_section() }}
+        {% endif %}
+
+        {% set featured_stories = (articles|selectattr('category.name', 'equalto', 'stories')|sort(attribute='date', reverse=True))[:HOME_STORIES_MAX] %}
+        {% if featured_stories %}
+        <section class="home-section">
+            <h2 class="home-heading">Alumni Stories <a class="home-more" href="{{ SITEURL }}/stories.html">All stories &rarr;</a></h2>
+            <div class="story-list">
+                {% for article in featured_stories %}
+                <article class="story-card">
+                    {% if article.image %}
+                    <div class="story-card-photo">
+                        <img src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.alum|default(article.title) }}" class="story-image" />
+                    </div>
+                    {% endif %}
+                    <div class="story-card-body">
+                        <h3 class="story-card-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+                        {% if article.alum %}<p class="story-card-alum">{{ article.alum }}</p>{% endif %}
+                        <p class="story-card-summary">{{ article.summary|striptags|truncate(200) }}</p>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

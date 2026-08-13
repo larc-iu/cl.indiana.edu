@@ -164,12 +164,12 @@ current_students:
     photo: "images/people/andrew_davis.jpg"
     website: "https://www.linkedin.com/in/adavis94/"
   - name: ["Snigdha", "Khanna"]
-    degree: "Ph.D. student, CL & Cognitive Science; M.S., CL, 2025"
+    degree: "Ph.D. student, CL & Cognitive Science; M.S., CL 2025"
     role: "phd"
     photo: "images/people/snigdha_khanna.jpg"
     website: "https://www.linkedin.com/in/k-snigdha/"
   - name: ["Melissa", "Lieffers"]
-    degree: "Ph.D. student, Computer Science; M.A., CL, 2025"
+    degree: "Ph.D. student, Computer Science; M.A., CL 2025"
     role: "phd"
     photo: "images/people/melissa_lieffers.jpg"
     website: "https://www.linkedin.com/in/melissa-lieffers/"
@@ -428,3 +428,8 @@ alumni:
     graduated: 2026
     photo: "images/people/yue_chen.jpg"
     website: "https://chenyueg.github.io/"
+  - name: ["Lily", "Kawaoto"]
+    degree: "M.A., CL"
+    role: "ms"
+    graduated: 2023
+    website: "https://www.linkedin.com/in/lily-kawaoto/"
