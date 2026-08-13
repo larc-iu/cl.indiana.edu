@@ -135,11 +135,6 @@ current_students:
     role: "phd"
     photo: "images/people/victor_shi.jpg"
     website: "https://www.linkedin.com/in/wenchen-victor-shi"
-  - name: ["Kenneth", "Steimel"]
-    degree: "Ph.D. student, CL"
-    role: "phd"
-    photo: "images/people/kenneth_steimel.jpg"
-    website: "https://www.linkedin.com/in/kenneth-steimel-a1730312b/"
   - name: ["Daniel", "Swanson"]
     degree: "Ph.D. student, CL"
     role: "phd"
@@ -433,3 +428,9 @@ alumni:
     role: "ms"
     graduated: 2023
     website: "https://www.linkedin.com/in/lily-kawaoto/"
+  - name: ["Kenneth", "Steimel"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2026
+    photo: "images/people/kenneth_steimel.jpg"
+    website: "https://www.linkedin.com/in/kenneth-steimel-a1730312b/"
