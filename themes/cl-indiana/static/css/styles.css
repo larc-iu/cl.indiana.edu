@@ -7,6 +7,17 @@ body {
 	min-width: 480px;
 	max-width: 1440px;
 	margin: auto;
+	/* Sticky footer: the page fills the viewport and .site-main takes up the
+	   slack, so the address block and IU footer sit at the bottom of short
+	   pages instead of floating mid-screen. */
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+
+.site-main {
+	flex: 1 0 auto;
 }
 
 h1 {
