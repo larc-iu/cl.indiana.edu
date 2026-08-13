@@ -18,10 +18,12 @@ core_faculty:
     degree: "Assistant Professor, Department of Linguistics"
     role: "faculty"
     photo: "images/people/shuju_shi.jpg"
+    website: "https://linguistics.indiana.edu/about/faculty/shuju-shi.html"
   - name: [ "Francis M.", "Tyers" ]
     degree: "Associate Professor, Department of Linguistics"
     role: "faculty"
     photo: "images/people/francis_tyers.jpg"
+    website: "https://cl.indiana.edu/~ftyers/"
 
 associated_faculty:
   # associated faculty
@@ -57,39 +59,16 @@ associated_faculty:
     photo: "images/people/chung_chieh_shan.jpg"
 
 current_students:
-  # current
-  - name: ["Xiao", "Dong"]
-    degree: "M.S. student, CL"
-    role: "ms"
   - name: ["Story", "Ellis"]
     degree: "M.S. student, CL"
     role: "ms"
     photo: "images/people/story_ellis.jpg"
-  - name: ["Benjamin", "Glidden"]
-    degree: "M.S. student, CL"
-    role: "ms"
-    photo: "images/people/benjamin_glidden.jpg"
-    website: "https://github.com/bglid"
-  - name: ["Shusuke", "Hashimoto"]
-    degree: "M.S. student, CL"
-    role: "ms"
-  - name: ["Armando", "Hull"]
-    degree: "M.S. student, CL"
-    role: "ms"
-    photo: "images/people/armando_hull.jpg"
-  - name: ["Elias", "Naske" ]
-    degree: "M.S. student, CL"
-    role: "ms"
-    photo: "images/people/elias_naske.jpg"
-    website: "https://www.linkedin.com/in/elias-naske/"
+    website: "https://linguistics.indiana.edu/about/graduate-students/ellis-story.html"
   - name: ["Shane", "Sparks"]
     degree: "M.S. student, CL"
     role: "ms"
     photo: "images/people/shane_sparks.jpg"
     website: "https://www.linkedin.com/in/shane-a-sparks/"
-  - name: ["Beck", "Tabor"]
-    degree: "M.S. student, CL"
-    role: "ms"
   - name: ["Grace", "Teuscher"]
     degree: "M.S. student, CL"
     role: "ms"
@@ -99,8 +78,9 @@ current_students:
     degree: "M.S. student, CL"
     role: "ms"
   - name: ["Charlotte", "Zhu"]
-    degree: "M.S. student, CL"
-    role: "ms"
+    degree: "Ph.D. student, CL"
+    role: "phd"
+    website: "https://linguistics.indiana.edu/about/graduate-students/zhu-charlotte.html"
   - name: ["Muhammad", "Abdo"]
     degree: "Ph.D. student, CL"
     role: "phd"
@@ -110,6 +90,7 @@ current_students:
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/meesum_alam.jpg"
+    website: "https://www.linkedin.com/in/meesum-alam-193657194/"
   - name: ["Phakphum", "Artkaew"]
     degree: "Ph.D. student, CL"
     role: "phd"
@@ -119,33 +100,36 @@ current_students:
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/sadia_ashraf.jpg"
-  - name: ["Yue", "Chen"]
-    degree: "Ph.D. student, CL"
-    role: "phd"
-    photo: "images/people/yue_chen.jpg"
+    website: "https://linguistics.indiana.edu/about/graduate-students/ashraf-sadia.html"
   - name: ["James", "Decatur"]
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/james_decatur.jpg"
+    website: "https://linguistics.indiana.edu/about/graduate-students/decatur-james.html"
   - name: ["Alexandra", "Fort"]
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/alexandra_fort.jpg"
+    website: "https://linguistics.indiana.edu/about/graduate-students/fort-alexandra.html"
   - name: ["Nils", "Hjortnaes"]
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/nils_hjortnaes.jpg"
+    website: "https://www.linkedin.com/in/nils-hjortnaes"
   - name: ["Joseph", "Larson"]
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/joseph_larson.jpg"
+    website: "https://www.linkedin.com/in/joseph-larson-351417b3/"
   - name: ["Siyi", "Lian"]
     degree: "Ph.D. student, CL"
     role: "phd"
+    website: "https://linguistics.indiana.edu/about/graduate-students/siyi-lian.html"
   - name: ["Esra", "Önal"]
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/esra_onal.jpg"
+    website: "https://esraonal.github.io/"
   - name: ["Wenchen (Victor)", "Shi"]
     degree: "Ph.D. student, CL"
     role: "phd"
@@ -155,14 +139,12 @@ current_students:
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/kenneth_steimel.jpg"
-  - name: ["Rin", "Steitz"]
-    degree: "Ph.D. student, CL"
-    role: "phd"
-    photo: "images/people/rin_steitz.jpg"
+    website: "https://www.linkedin.com/in/kenneth-steimel-a1730312b/"
   - name: ["Daniel", "Swanson"]
     degree: "Ph.D. student, CL"
     role: "phd"
     photo: "images/people/daniel_swanson.jpg"
+    website: "https://mr-martian.github.io/"
   - name: ["Shane", "Taylor"]
     degree: "Ph.D. student, CL"
     role: "phd"
@@ -171,6 +153,8 @@ current_students:
   - name: ["Holly", "Lopez"]
     degree: "Ph.D. student, Information Science"
     role: "phd"
+    photo: "images/people/holly_lopez.jpg"
+    website: "https://www.linkedin.com/in/hollydlopez"
   - name: ["Jacob", "Striebel"]
     degree: "Ph.D. student, Computer Science"
     role: "phd"
@@ -180,74 +164,78 @@ current_students:
     photo: "images/people/andrew_davis.jpg"
     website: "https://www.linkedin.com/in/adavis94/"
   - name: ["Snigdha", "Khanna"]
-    degree: "Ph.D. student, CL; Ph.D. student, Cognitive Science"
-    graduated: "M.S., CL 2025"
+    degree: "Ph.D. student, CL & Cognitive Science; M.S., CL, 2025"
     role: "phd"
     photo: "images/people/snigdha_khanna.jpg"
     website: "https://www.linkedin.com/in/k-snigdha/"
+  - name: ["Melissa", "Lieffers"]
+    degree: "Ph.D. student, Computer Science; M.A., CL, 2025"
+    role: "phd"
+    photo: "images/people/melissa_lieffers.jpg"
+    website: "https://www.linkedin.com/in/melissa-lieffers/"
 
 alumni:
   # doctoral
-  - name: ["Khaled", "El-Ghamry"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2004
-  - name: ["Steve", "Grimes"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2010
-  - name: ["Yu-Yin", "Hsu"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2014
-  - name: ["Toshikazu", "Ikuta"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2008
-  - name: ["Ross", "Israel"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2014
-  - name: ["Emad", "Mohamed"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2010
-  - name: ["Natalya", "Panteleyeva"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2010
-  - name: ["Marwa", "Ragheb"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2014
-  - name: ["Brian", "Riordan"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2007
-  - name: ["Paul", "Rodrigues"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2012
-  - name: ["David", "Rojas"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2010
-  - name: ["Nathan", "Sanders"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2010
-  - name: ["Kazuhiro", "Seki"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2006
-  - name: ["Kam", "Woods"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2010
-  - name: ["Ning", "Yu"]
-    degree: "Ph.D."
-    role: "phd"
-    graduated: 2011
+#  - name: ["Khaled", "El-Ghamry"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2004
+#  - name: ["Steve", "Grimes"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2010
+#  - name: ["Yu-Yin", "Hsu"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2014
+#  - name: ["Toshikazu", "Ikuta"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2008
+#  - name: ["Ross", "Israel"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2014
+#  - name: ["Emad", "Mohamed"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2010
+#  - name: ["Natalya", "Panteleyeva"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2010
+#  - name: ["Marwa", "Ragheb"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2014
+#  - name: ["Brian", "Riordan"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2007
+#  - name: ["Paul", "Rodrigues"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2012
+#  - name: ["David", "Rojas"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2010
+#  - name: ["Nathan", "Sanders"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2010
+#  - name: ["Kazuhiro", "Seki"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2006
+#  - name: ["Kam", "Woods"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2010
+#  - name: ["Ning", "Yu"]
+#    degree: "Ph.D."
+#    role: "phd"
+#    graduated: 2011
   - name: ["Hai", "Hu"]
     degree: "Ph.D., CL"
     role: "phd"
@@ -258,130 +246,129 @@ alumni:
     degree: "Ph.D., CL"
     role: "phd"
     graduated: 2025
+    website: "https://ana-kuznetsova.github.io/"
     photo: "images/people/anastasia_kuznetsova.jpg"
   - name: ["Charese", "Smiley"]
     degree: "Ph.D., CL"
     role: "phd"
     graduated: 2018
-    website: "https://scholar.google.com/citations?user=V2UiOeoAAAAJ"
+    website: "https://www.linkedin.com/in/charese-smiley/"
+    photo: "images/people/charese_smiley.jpg"
   - name: ["Anthony", "Meyer"]
     degree: "Ph.D., CL"
     role: "phd"
     graduated: 2019
+    photo: "images/people/anthony_meyer.jpg"
+    website: "https://www.linkedin.com/in/antmeyer408/"
   - name: ["Levi", "King"]
     degree: "Ph.D., CL"
     role: "phd"
     graduated: 2021
     website: "https://www.linkedin.com/in/leviaking/"
-  - name: ["Muhammad", "Abdul-Mageed"]
-    degree: "Ph.D., CL"
-    role: "phd"
-    graduated: 2012
-    photo: "images/people/muhammad_abdul_mageed.jpg"
-    website: "https://mageed.arts.ubc.ca/"
-  - name: ["Olga", "Scrivner"]
-    degree: "Ph.D., CL"
-    role: "phd"
-    graduated: 2015
+#  - name: ["Muhammad", "Abdul-Mageed"]
+#    degree: "Ph.D., CL"
+#    role: "phd"
+#    graduated: 2012
+#    photo: "images/people/muhammad_abdul_mageed.jpg"
+#    website: "https://mageed.arts.ubc.ca/"
+#  - name: ["Olga", "Scrivner"]
+#    degree: "Ph.D., CL"
+#    role: "phd"
+#    graduated: 2015
 
   # masters
-  - name: ["Jay", "Askren"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2005
-  - name: ["Fernando", "Balbachan"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2006
-  - name: ["Daniel", "Bishop"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2012
-  - name: ["Meagan", "Cockram"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2003
-  - name: ["Siyuan", "Guo"]
-    degree: "M.A."
-    website: "http://apophenia.me/"
-    role: "ms"
-    graduated: 2014
-  - name: ["Dustin", "Jefford"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2010
-  - name: ["Charles", "Jochim"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2008
-  - name: ["Amber", "Kennedy"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2005
-  - name: ["Gary", "Krug"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2006
-  - name: ["Erica H.", "La Vine"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2003
-  - name: ["Tina", "May"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2012
-  - name: ["Deborah", "McDonnell"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2005
-  - name: ["Lwin", "Moe"]
-    degree: "M.A."
-    website: "http://linguistlist.org/people/lwin.html"
-    role: "ms"
-    graduated: 2010
-  - name: ["Andrew", "Morin"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2007
-  - name: ["Jason", "Quinley"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2009
-  - name: ["Gabriel", "Recchia"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2012
-  - name: ["Chris", "Riley"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2012
-  - name: ["Melissa", "Roemmele"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2010
-    photo: "images/people/melissa_roemmele.jpg"
-    website: "https://roemmele.github.io/"
-  - name: ["Kevin", "Stowe"]
-    degree: "M.A."
-    role: "ms"
-    graduated: 2010
-  - name: ["Melissa", "Lieffers"]
-    degree: "M.A., CL"
-    role: "ms"
-    graduated: 2025
-    photo: "images/people/melissa_lieffers.jpg"
+#  - name: ["Jay", "Askren"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2005
+#  - name: ["Fernando", "Balbachan"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2006
+#  - name: ["Daniel", "Bishop"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2012
+#  - name: ["Meagan", "Cockram"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2003
+#  - name: ["Siyuan", "Guo"]
+#    degree: "M.A."
+#    website: "http://apophenia.me/"
+#    role: "ms"
+#    graduated: 2014
+#  - name: ["Dustin", "Jefford"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2010
+#  - name: ["Charles", "Jochim"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2008
+#  - name: ["Amber", "Kennedy"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2005
+#  - name: ["Gary", "Krug"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2006
+#  - name: ["Erica H.", "La Vine"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2003
+#  - name: ["Tina", "May"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2012
+#  - name: ["Deborah", "McDonnell"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2005
+#  - name: ["Lwin", "Moe"]
+#    degree: "M.A."
+#    website: "http://linguistlist.org/people/lwin.html"
+#    role: "ms"
+#    graduated: 2010
+#  - name: ["Andrew", "Morin"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2007
+#  - name: ["Jason", "Quinley"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2009
+#  - name: ["Gabriel", "Recchia"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2012
+#  - name: ["Chris", "Riley"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2012
+#  - name: ["Melissa", "Roemmele"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2010
+#    photo: "images/people/melissa_roemmele.jpg"
+#    website: "https://roemmele.github.io/"
+#  - name: ["Kevin", "Stowe"]
+#    degree: "M.A."
+#    role: "ms"
+#    graduated: 2010
   - name: ["Elya", "Brown"]
     degree: "M.S., CL"
     role: "ms"
     graduated: 2025
     photo: "images/people/elya_brown.jpg"
-    website: "https://www.kveliere.com/"
-  - name: ["Wen", "Li"]
-    degree: "M.A., CL"
-    role: "ms"
-    graduated: 2014
-    photo: "images/people/wen_li.jpg"
-    website: "https://www.linkedin.com/in/wenli-nlp/"
+    website: "https://www.linkedin.com/in/elya-brown-828b39104/"
+#  - name: ["Wen", "Li"]
+#    degree: "M.A., CL"
+#    role: "ms"
+#    graduated: 2014
+#    photo: "images/people/wen_li.jpg"
+#    website: "https://www.linkedin.com/in/wenli-nlp/"
   - name: ["Everett", "Green"]
     degree: "M.A., CL"
     role: "ms"
@@ -393,3 +380,51 @@ alumni:
     role: "ms"
     graduated: 2023
     photo: "images/people/jeremy_dickinson.jpg"
+
+  - name: ["Xiao", "Dong"]
+    degree: "M.S., CL"
+    role: "ms"
+    photo: "images/people/xiao_dong.jpg"
+    graduated: 2026
+    website: "https://scholar.google.com/citations?user=y4luuZMAAAAJ&hl=en"
+  - name: ["Benjamin", "Glidden"]
+    degree: "M.S., CL"
+    role: "ms"
+    photo: "images/people/benjamin_glidden.jpg"
+    website: "https://github.com/bglid"
+    graduated: 2026
+  - name: ["Shusuke", "Hashimoto"]
+    degree: "M.S., CL"
+    role: "ms"
+    website: "https://www.linkedin.com/in/shusuke-hashimoto-b06323224/"
+    photo: "images/people/shusuke_hashimoto.png"
+    graduated: 2026
+  - name: ["Armando", "Hull"]
+    degree: "M.S., CL"
+    role: "ms"
+    photo: "images/people/armando_hull.jpg"
+    website: "https://www.linkedin.com/in/armando-hull-622644226/"
+    graduated: 2026
+  - name: ["Elias", "Naske" ]
+    degree: "M.S., CL"
+    role: "ms"
+    photo: "images/people/elias_naske.jpg"
+    website: "https://www.linkedin.com/in/elias-naske/"
+    graduated: 2026
+  - name: ["Beck", "Tabor"]
+    degree: "M.S., CL"
+    role: "ms"
+    graduated: 2025
+    website: "https://www.linkedin.com/in/beck-tabor-072561410/"
+    photo: "images/people/beck_tabor.png"
+  - name: ["Rin", "Steitz"]
+    degree: "M.S., CL"
+    graduated: 2026
+    role: "ms"
+    photo: "images/people/rin_steitz.jpg"
+  - name: ["Yue", "Chen"]
+    degree: "Ph.D., CL"
+    role: "phd"
+    graduated: 2026
+    photo: "images/people/yue_chen.jpg"
+    website: "https://chenyueg.github.io/"
