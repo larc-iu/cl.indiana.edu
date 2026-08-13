@@ -25,12 +25,28 @@ DEFAULT_PAGINATION = False
 RELATIVE_URLS = True
 
 # Static content handling
-# Note: STATIC_PATHS takes literal paths, not globs -- the '*.pdf' entry below
-# never matched anything, so slide decks must be listed by name.
-STATIC_PATHS = ['static', 'images', '*.pdf', 'BS.pdf', 'BSMS.pdf',
-                'git_tutorial.pdf', 'introLatex.pdf', 'Supercomputing_at_IU.pdf']
+# Note: STATIC_PATHS takes literal paths relative to content/, not globs, so the
+# colloquium slide decks are listed by name. Pelican warns at build time about
+# any name here that doesn't exist -- that warning is the check that a {static}
+# link still resolves.
+STATIC_PATHS = ['static', 'images']
 STATIC_SAVE_AS = '{path}'
 STATIC_URL = '{path}'
+
+# Markdown extensions. This restates Pelican's defaults because setting
+# MARKDOWN replaces them wholesale rather than merging: 'extra' is what gives us
+# tables and the definition lists the colloquium schedule uses, 'meta' parses the
+# Title:/Date: headers, and 'smarty' turns straight quotes, apostrophes and
+# '--' into their typographic equivalents in body text.
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.smarty': {},
+    },
+    'output_format': 'html5',
+}
 
 # Extension support
 PLUGIN_PATHS = ['plugins']
