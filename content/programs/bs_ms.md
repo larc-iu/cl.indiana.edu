@@ -63,7 +63,7 @@ Either 12 credit hours in one of the disciplines below, or a minor offered by on
 
 Students must have completed at least 32 credit hours of core requirements toward the B.S. with a major GPA of at least 3.0.
 
-Students are normally classified as undergraduates until the end of the first semester in which they have earned 120 or more credit hours toward graduation. During that semester, students in good standing apply to the University Graduate School and begin the transition to graduate status. At least 15 credit hours — normally no fewer than two semesters — must be completed while registered in graduate status.
+Students are normally classified as undergraduates until the end of the first semester in which they have earned 120 or more credit hours toward graduation. During that semester, students in good standing apply to the University Graduate School and begin the transition to graduate status. At least 15 credit hours—normally no fewer than two semesters—must be completed while registered in graduate status.
 
 ## Graduate Requirements
 

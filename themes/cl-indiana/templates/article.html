@@ -27,16 +27,23 @@
                     {%- if article.where %}{{ article.where }}{% endif -%}
                 </p>
                 {% endif %}
+            {% elif is_story %}
+                {# Stories are evergreen recruiting material, so the byline is who
+                   the alum is and what they do now rather than a publication date. #}
+                <p class="post-meta">
+                    {%- if article.alum %}{{ article.alum }}{% endif -%}
+                    {%- if article.alum and article.role %} &#124; {% endif -%}
+                    {%- if article.role %}{{ article.role }}{% endif -%}
+                </p>
             {% else %}
                 <p class="post-meta">
                     <time datetime="{{ article.date.strftime('%Y-%m-%d') }}">{{ article.locale_date }}</time>
-                    {% if is_story and article.alum %}&#124; {{ article.alum }}{% endif %}
                 </p>
             {% endif %}
             {% if article.image %}
             <img class="post-image" src="{{ SITEURL }}/{{ article.image }}" alt="{{ article.alum|default(article.title) }}" />
             {% endif %}
-            <div class="post-body {% if is_semester %}semester-body{% endif %}">
+            <div class="post-body {% if is_semester %}semester-body{% endif %}{% if is_story %}story-body{% endif %}">
                 {{ article.content }}
             </div>
         </article>

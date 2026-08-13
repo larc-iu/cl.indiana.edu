@@ -73,8 +73,12 @@
                     {% endif %}
                     <div class="story-card-body">
                         <h3 class="story-card-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
-                        {% if article.alum %}<p class="story-card-alum">{{ article.alum }}</p>{% endif %}
+                        {% if article.alum %}<p class="story-card-alum">{{ article.alum }}{% if article.role %} &#124; {{ article.role }}{% endif %}</p>{% endif %}
+                        {% if article.quote %}
+                        <p class="story-card-quote">{{ article.quote }}</p>
+                        {% else %}
                         <p class="story-card-summary">{{ article.summary|striptags|truncate(200) }}</p>
+                        {% endif %}
                     </div>
                 </article>
                 {% endfor %}

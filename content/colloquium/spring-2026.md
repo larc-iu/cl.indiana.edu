@@ -10,7 +10,7 @@ Jan. 27
 : Daniel; Esra (Anaphora)
 
 Feb. 3
-: Luke (Discussion of paper over coffee — coffee, tea and dessert will be provided.)
+: Luke (Discussion of paper over coffee—coffee, tea and dessert will be provided.)
 
 Feb. 10
 : Peter(Thai WINOGRAD); Luke (Pronto)

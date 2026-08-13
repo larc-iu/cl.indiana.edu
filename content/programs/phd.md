@@ -49,7 +49,7 @@ Knowledge of the structure of a language other than English and outside the stud
 2. a two-semester introductory language sequence, such as Beginning Swahili; or
 3. the field methods sequence, LING-L 653 to LING-L 654.
 
-In practice, "outside the student's general language family" has been interpreted to mean outside Indo-European for English speakers — although Hindi or Bengali may be acceptable depending on the rationale for the student's program — and outside Semitic for Arabic speakers, to give just a couple of examples.
+In practice, "outside the student's general language family" has been interpreted to mean outside Indo-European for English speakers—although Hindi or Bengali may be acceptable depending on the rationale for the student's program—and outside Semitic for Arabic speakers, to give just a couple of examples.
 
 ## Research Tool Requirements
 

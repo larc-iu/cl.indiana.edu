@@ -615,6 +615,15 @@ address {
 	margin-top: 1.8em;
 }
 
+/* The opening paragraph of a story is a standfirst: it sets up who the alum is
+   and where they ended up, before the Q&A starts. Selecting it positionally
+   keeps the Markdown free of wrapper divs. */
+.story-body > p:first-child {
+	font-size: 1.1em;
+	color: #333;
+	margin-bottom: 1.6em;
+}
+
 .post-body blockquote {
 	margin: 1.4em 0;
 	padding: 0 0 0 20px;
@@ -711,6 +720,15 @@ address {
 .story-card-summary {
 	margin: 0;
 	color: #555;
+}
+
+/* A pull quote from the interview, used on the card in place of the summary.
+   It is the alum's own voice, so it gets quotation marks in the source rather
+   than generated ones, and italics to set it off from the surrounding text. */
+.story-card-quote {
+	margin: 0;
+	color: #444;
+	font-style: italic;
 }
 
 /* Home page sections */
