@@ -48,9 +48,9 @@ MARKDOWN = {
     'output_format': 'html5',
 }
 
-# Extension support
-PLUGIN_PATHS = ['plugins']
-PLUGINS = ['plugins.bibliography_markdown', 'plugins.yaml_loader']
+# Shared plugins, installed from github.com/larc-iu/larc-site-utils and used by
+# the LARC group and personal sites too.
+PLUGINS = ['larc_site_utils.yaml_data', 'larc_site_utils.news']
 
 # Turn off default templates (including index)
 DIRECT_TEMPLATES = []
@@ -67,13 +67,11 @@ PAGE_PATHS = ['']
 PAGE_EXCLUDES = ['news', 'stories', 'colloquium']
 
 # How much news the home page shows: at most HOME_NEWS_MAX posts, and none
-# older than HOME_NEWS_MONTHS. The cutoff is precomputed as a year*12+month
-# integer so templates can compare it without any timezone-aware date math.
+# older than HOME_NEWS_MONTHS. Both are applied by recent_articles() in the
+# templates, which is also where the month arithmetic now lives.
 HOME_NEWS_MAX = 3
 HOME_NEWS_MONTHS = 6
 HOME_STORIES_MAX = 3
-_now = datetime.datetime.now()
-HOME_NEWS_CUTOFF_MONTH = _now.year * 12 + _now.month - HOME_NEWS_MONTHS
 
 # URL and path configurations
 PATH_METADATA = '(?P<path_no_ext>.*)\..*'

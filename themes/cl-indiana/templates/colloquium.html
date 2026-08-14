@@ -19,7 +19,7 @@
     <div id="content_area">
         {{ page.content }}
 
-        {% set semesters = articles|selectattr('category.name', 'equalto', 'colloquium')|sort(attribute='date', reverse=True)|list %}
+        {% set semesters = recent_articles(articles, category='colloquium') %}
 
         {% for a in semesters %}
             {% if loop.first %}

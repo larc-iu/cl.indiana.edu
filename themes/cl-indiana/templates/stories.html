@@ -10,7 +10,7 @@
         {{ page.content }}
 
         <div class="story-list">
-            {% for article in articles|selectattr('category.name', 'equalto', 'stories')|sort(attribute='date', reverse=True) %}
+            {% for article in recent_articles(articles, category='stories') %}
             <article class="story-card">
                 {% if article.image %}
                 <div class="story-card-photo">

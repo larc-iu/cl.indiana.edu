@@ -98,6 +98,16 @@ wheels = [
 ]
 
 [[package]]
+name = "larc-site-utils"
+version = "0.1.0"
+source = { git = "https://github.com/larc-iu/larc-site-utils?branch=master#9bd38654d229ef303a00e875f9b9af3718b57c40" }
+dependencies = [
+    { name = "pelican" },
+    { name = "pybtex" },
+    { name = "pyyaml" },
+]
+
+[[package]]
 name = "latexcodec"
 version = "3.0.1"
 source = { registry = "https://pypi.org/simple" }
@@ -240,6 +250,7 @@ dependencies = [
     { name = "asciidoc" },
     { name = "ghp-import" },
     { name = "invoke" },
+    { name = "larc-site-utils" },
     { name = "livereload" },
     { name = "markdown" },
     { name = "pelican", extra = ["markdown"] },
@@ -253,6 +264,7 @@ requires-dist = [
     { name = "asciidoc", specifier = ">=10.0.0" },
     { name = "ghp-import", specifier = ">=2.1.0" },
     { name = "invoke", specifier = ">=2.0.0" },
+    { name = "larc-site-utils", git = "https://github.com/larc-iu/larc-site-utils?branch=master" },
     { name = "livereload", specifier = ">=2.6.3" },
     { name = "markdown", specifier = ">=3.4.1" },
     { name = "pelican", specifier = ">=4.8.0" },

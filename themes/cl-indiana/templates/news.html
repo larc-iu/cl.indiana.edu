@@ -10,7 +10,7 @@
         {{ page.content }}
 
         <div class="post-list">
-            {% for article in articles|selectattr('category.name', 'equalto', 'news')|sort(attribute='date', reverse=True) %}
+            {% for article in recent_articles(articles, category='news') %}
             <article class="post-card">
                 <p class="post-card-meta">{{ article.locale_date }}</p>
                 <h2 class="post-card-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>

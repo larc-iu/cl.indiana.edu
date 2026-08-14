@@ -28,14 +28,9 @@
     <div id="content_area">
         {{ page.content }}
 
-        {# Recent news: at most HOME_NEWS_MAX posts, none older than the cutoff.
+        {# Recent news: at most HOME_NEWS_MAX posts, none older than HOME_NEWS_MONTHS.
            Falls away entirely during quiet stretches rather than showing stale items. #}
-        {% set recent_news = [] %}
-        {% for a in articles|selectattr('category.name', 'equalto', 'news')|sort(attribute='date', reverse=True) %}
-            {% if (a.date.year * 12 + a.date.month) > HOME_NEWS_CUTOFF_MONTH and recent_news|length < HOME_NEWS_MAX %}
-                {% set _ = recent_news.append(a) %}
-            {% endif %}
-        {% endfor %}
+        {% set recent_news = recent_articles(articles, category='news', limit=HOME_NEWS_MAX, months=HOME_NEWS_MONTHS) %}
 
         {% if recent_news %}
         <div class="home-columns">
@@ -59,7 +54,7 @@
             {{ explore_section() }}
         {% endif %}
 
-        {% set featured_stories = (articles|selectattr('category.name', 'equalto', 'stories')|sort(attribute='date', reverse=True))[:HOME_STORIES_MAX] %}
+        {% set featured_stories = recent_articles(articles, category='stories', limit=HOME_STORIES_MAX) %}
         {% if featured_stories %}
         <section class="home-section">
             <h2 class="home-heading">Alumni Stories <a class="home-more" href="{{ SITEURL }}/stories.html">All stories &rarr;</a></h2>
