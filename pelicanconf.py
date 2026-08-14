@@ -73,8 +73,19 @@ HOME_NEWS_MAX = 3
 HOME_NEWS_MONTHS = 6
 HOME_STORIES_MAX = 3
 
-# URL and path configurations
-PATH_METADATA = '(?P<path_no_ext>.*)\..*'
+# URL and path configurations.
+#
+# The category group is what makes an article in content/news/ come out with
+# category 'news', which is how templates tell news, stories and colloquium
+# entries apart. Pelican normally derives that from the folder name, but since
+# 4.12 it only does so when CATEGORY_SAVE_AS is truthy (readers.py,
+# USE_FOLDER_AS_CATEGORY), and we set that empty to suppress category pages.
+# Without this, articles have no category attribute at all: the news, stories
+# and colloquium lists come out empty and building a draft raises
+# AttributeError. Capturing it here works the same on either side of that
+# change. (The regex is a raw string so \. stays an escaped dot rather than an
+# invalid escape sequence warning.)
+PATH_METADATA = r'(?P<path_no_ext>(?:(?P<category>[^/]+)/)?.*)\..*'
 SLUG_REGEX_SUBSTITUTIONS = [(r'[^\w/]+', '-')]
 PAGE_URL = '{path_no_ext}.html'
 PAGE_SAVE_AS = '{path_no_ext}.html'
