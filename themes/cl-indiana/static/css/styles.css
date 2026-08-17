@@ -585,6 +585,13 @@ address {
 	margin: 0 0 24px 0;
 }
 
+/* The story byline stacks onto its own lines, so it needs a tighter leading
+   than the 1.5 body prose inherits -- otherwise three short lines read as
+   three separate paragraphs rather than one block. */
+.post-meta-stacked {
+	line-height: 1.4;
+}
+
 .post-image {
 	display: block;
 	width: 160px;

@@ -29,11 +29,15 @@
                 {% endif %}
             {% elif is_story %}
                 {# Stories are evergreen recruiting material, so the byline is who
-                   the alum is and what they do now rather than a publication date. #}
-                <p class="post-meta">
+                   the alum is and what they do now rather than a publication date.
+                   The date is shown as month and year only, and labelled as the
+                   date of the conversation -- so `Date:` in a story's metadata
+                   means when the interview happened, not when the page went up. #}
+                <p class="post-meta post-meta-stacked">
                     {%- if article.alum %}{{ article.alum }}{% endif -%}
-                    {%- if article.alum and article.role %} &#124; {% endif -%}
+                    {%- if article.alum and article.role %}<br />{% endif -%}
                     {%- if article.role %}{{ article.role }}{% endif -%}
+                    {%- if article.date %}<br />Interviewed <time datetime="{{ article.date.strftime('%Y-%m') }}">{{ article.date.strftime('%B %Y') }}</time>{% endif -%}
                 </p>
             {% else %}
                 <p class="post-meta">

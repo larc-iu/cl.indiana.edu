@@ -1,5 +1,5 @@
 Title: Knowing what's under the hood
-Date: 2026-08-11
+Date: 2025-12-01
 Alum: Lily Kawaoto, M.A. 2023
 Role: Leidos
 Quote: “Being able to explain how a transformer works, why it spits out the next token the way it does, and being able to relay that understanding, gave me an advantage over my colleagues.”
