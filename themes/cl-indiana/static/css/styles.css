@@ -604,12 +604,29 @@ address {
 
 /* Constrain the measure: the body is up to 1440px wide, which is
    unreadable for running prose. */
+/* Collapses with the 24px below the meta line or portrait, so the gap above the
+   body is 24px whether or not the post type above it has one. */
 .post-body {
 	line-height: 1.65;
+	margin-top: 24px;
 }
 
 .post-body p {
 	margin: 0 0 1.1em 0;
+}
+
+/* Images written into a post body scale down to the measure instead of pushing
+   the page wider. Markdown wraps a lone image in a <p>, so the paragraph loses
+   its bottom margin and the figure spacing is set here instead. */
+.post-body img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 1.6em 0;
+}
+
+.post-body p:has(> img:only-child) {
+	margin: 0;
 }
 
 /* In the interview stories, a paragraph that is nothing but bold text is an
