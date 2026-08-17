@@ -43,7 +43,6 @@
                     <article class="post-card">
                         <p class="post-card-meta">{{ article.locale_date }}</p>
                         <h3 class="post-card-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
-                        <p class="post-card-summary">{{ article.summary|striptags|truncate(220) }}</p>
                     </article>
                     {% endfor %}
                 </div>

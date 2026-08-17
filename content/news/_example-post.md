@@ -1,17 +1,15 @@
 Title: Example news post
 Date: 2026-08-13
 Status: draft
-Summary: A template for news posts. Copy this file, give it a real title, date and summary, and remove the Status line to publish it.
 
 This file is a **draft**, so it does not appear on the news feed or the home page.
-It exists as a starting point: copy it to `content/news/your-post-name.md`, edit the metadata
-above, and delete the `Status: draft` line when it is ready to publish.
+It exists as a starting point: copy it to `content/news/your-post-name.md`, edit the
+title and date above, and delete the `Status: draft` line when it is ready to publish.
 
-A news post has three fields:
+A news post has two fields:
 
-* **Title** and **Summary** are all a reader sees on the feed and the home page before
-  clicking through. If you leave Summary out, the opening of the body is used instead,
-  which usually reads worse.
+* **Title** is the whole teaser. It is all a reader sees on the news feed and on the home
+  page, so make it say what happened rather than just naming a topic.
 * **Date** is shown above the title. It also orders the feed and decides whether a post is
   recent enough to appear on the home page.
 
