@@ -47,7 +47,7 @@ Knowledge of the structure of a language other than English and outside the stud
 
 1. a one-semester structure course, such as Structure of Mongolian or Arabic Syntax;
 2. a two-semester introductory language sequence, such as Beginning Swahili; or
-3. the field methods sequence, LING-L 653 to LING-L 654.
+3. the field methods sequence, LING-L 653 Field Methods in Linguistics I and LING-L 654 Field Methods in Linguistics II.
 
 In practice, "outside the student's general language family" has been interpreted to mean outside Indo-European for English speakers—although Hindi or Bengali may be acceptable depending on the rationale for the student's program—and outside Semitic for Arabic speakers, to give just a couple of examples.
 

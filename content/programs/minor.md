@@ -5,7 +5,7 @@ Template: programs
 
 The Minor in Computational Linguistics requires at least 15 credit hours.
 
-## Introductory Courses
+## Introductory Courses (6 cr.)
 
 * One of:
     * LING-L 103 Introduction to the Study of Language
@@ -14,7 +14,7 @@ The Minor in Computational Linguistics requires at least 15 credit hours.
     * LING-L 307 Phonology
     * LING-L 310 Syntax
 
-## Foundational Courses
+## Foundational Courses (9 cr.)
 
 * One of:
     * INFO-I 101 Introduction to Informatics

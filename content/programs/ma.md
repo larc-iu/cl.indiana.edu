@@ -27,7 +27,15 @@ Students must also fulfill a specialization course requirement by taking two of 
 * LING-L 665 Applying Machine Learning Techniques in Computational Linguistics
 * A seminar course such as ILS-Z 543 Computer-Mediated Communication, LING-L 700 Seminar on Current Issues, or LING-L 715 Seminar in Computational Linguistics, approved by the student's academic advisor
 
-Three additional electives must be taken. Electives will typically be courses relevant to computational linguistics, in Cognitive Science, Computer Science, Psychology, Speech and Hearing, or the School of Informatics. A minimum of 20 credit hours must be from linguistics department offerings. All specialization courses and outside electives must be approved by the student's academic advisor.
+Three additional electives must be taken. Electives will typically be courses relevant to computational linguistics, from:
+
+* Cognitive Science
+* Computer Science
+* Psychology
+* Speech and Hearing
+* The School of Informatics
+
+A minimum of 20 credit hours must be from linguistics department offerings. All specialization courses and outside electives must be approved by the student's academic advisor.
 
 ## Programming Language Requirement
 
