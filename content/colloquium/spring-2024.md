@@ -13,7 +13,7 @@ Where: Biology Building [A105](https://cts.iu.edu/rooms/index?room=160) or Virtu
 : Carla Soekefeld: *Evaluating word embeddings for historical German*
 
 02/07
-: [Nils Hjortnaes: Supercomputing tutorial]({static}/Supercomputing_at_IU.pdf)
+: [Nils Hjortnaes: Supercomputing tutorial](https://cl.indiana.edu/Supercomputing_at_IU.pdf)
 
 02/14
 : Coffee hour
@@ -22,7 +22,7 @@ Where: Biology Building [A105](https://cts.iu.edu/rooms/index?room=160) or Virtu
 : Daniel Swanson: Parselmouth tutorial
 
 02/28
-: [Sandra Kuebler: Latex tutorial]({static}/introLatex.pdf)
+: [Sandra Kuebler: Latex tutorial](https://cl.indiana.edu/introLatex.pdf)
 
 03/06
 : Coffee hour
