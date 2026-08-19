@@ -79,8 +79,8 @@ he asked whether I wanted to do that, and I said yes, and we started collaborati
 provide the theory and the algorithm, and I would implement it. That's how he introduced me
 to natural language inference, which at the time was a hot topic in NLP.
 
-I also collaborated with Charles Lin in the Chinese department, and with a colleague in the
-Spanish department. It's a really good atmosphere where you can have these kinds of
+I also collaborated with Charles Lin in East Asian Languages and Cultures, and with Patrícia
+Amaral in Spanish and Portuguese. It's a really good atmosphere where you can have these kinds of
 collaborations, and we have publications. I think that's what I benefited from the most—this
 very collaborative atmosphere. And it's not just me. Many people collaborate with different
 people from different departments.
