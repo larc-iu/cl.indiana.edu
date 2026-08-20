@@ -30,7 +30,7 @@ Students who started before then follow the requirements that were in place when
 
 The M.S. requires a minimum of 33 credit hours, or 36 if the statistics requirement is met through coursework.
 
-### Foundational Requirements
+### Foundational Courses
 
 **Programming**
 
