@@ -30,6 +30,21 @@ Students who started before then follow the requirements that were in place when
 
 The M.S. requires a minimum of 33 credit hours, or 36 if the statistics requirement is met through coursework.
 
+### Foundational Requirements
+
+**Programming**
+
+* One of:
+    * LING-L 555 Programming for Computational Linguistics
+    * Equivalent coursework or knowledge approved by the department
+
+**Statistics**
+
+* One of:
+    * STAT-S 520 Introduction to Statistics
+    * COGS-Q 520 Mathematics and Logic for Cognitive Science
+    * An equivalent approved by the department
+
 ### Core Courses (21 cr.)
 
 * LING-L 541 Introductory Phonetics
@@ -123,20 +138,5 @@ One additional course, chosen from the approved lists below.
 * COGS-Q 550 Models in Cognitive Science
 
 A course already counted toward the core or a track cannot also count as the elective.
-
-### Additional Requirements
-
-**Programming**
-
-* One of:
-    * LING-L 555 Programming for Computational Linguistics
-    * Equivalent coursework or knowledge approved by the department
-
-**Statistics**
-
-* One of:
-    * STAT-S 520 Introduction to Statistics
-    * COGS-Q 520 Mathematics and Logic for Cognitive Science
-    * An equivalent approved by the department
 
 For complete details, see [the University Graduate School bulletin](https://bulletins.iu.edu/iu/gradschool/2025-2026/programs/bloomington/linguistics/index.shtml).
