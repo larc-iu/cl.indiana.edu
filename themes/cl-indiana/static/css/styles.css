@@ -76,15 +76,12 @@ nav#nav1 ul li {
 
 nav#nav1 a {
 	display: inline-block;
+	background-color: #82786F;
 	color: white;
 	padding: 10px 30px 10px 30px;
 	font-weight: normal;
 	text-decoration: none;
 	font-size: 12pt;
-}
-
-nav#nav1 a:link, nav#nav1 a:visited {
-	background-color: #82786F;
 }
 
 nav#nav1 a:hover, nav#nav1 a:active {
@@ -125,17 +122,13 @@ nav#nav1 #current {
 }
 
 #left_side a {
+	display: block;
+	border: 5px solid white;
 	font-size: 12pt;
 	padding: 10px 0px 10px 0px;
 	margin: 0px 0px 5px 0px;
 	color: #4A3C31;
 	background-color: #E1D8B7;
-}
-
-#left_side a:link, a:visited {
-	text-decoration: none;
-	display: block;
-	border: 5px solid white;
 }
 
 #left_side a:hover {
@@ -298,9 +291,6 @@ img#img4_4 {
 
 a {
 	text-decoration: none;
-}
-
-a:link, a:visited {
 	color: #990000;
 }
 
@@ -314,29 +304,6 @@ a:hover, a:active {
 	padding-left: 200px;	
 	overflow: hidden;
 
-}
-
-#leftside {
-	position: fixed;
-	float: left;
-	width: 200px;
-	background-color: #F7F7E8;
-	left: 0;
-	top: 10px;
-	}
-	
-#leftside ul {
-	list-style: none;
-	margin: 12px 0px 0px 12px;
-	padding: 0px;
-}
-
-#leftside li a:link, a:visited {
-	font-size: 12pt;
-	padding: 3px 0px 3px 3px;
-	background-color: #AEA79F;
-	display: block;
-	text-decoration: none;
 }
 
 address {
@@ -790,10 +757,8 @@ address {
 	white-space: nowrap;
 }
 
-/* Muted until hover. The :link/:visited pseudo-classes are needed to outrank
-   the global `a:link` colour rule. */
-.home-more:link,
-.home-more:visited {
+/* Muted until hover. */
+.home-more {
 	color: #82786F;
 }
 
