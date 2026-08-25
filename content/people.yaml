@@ -137,7 +137,7 @@ current_students:
     website: "https://www.linkedin.com/in/wenchen-victor-shi"
   - name: ["Caroline", "Amodeo Williams"]
     degree: "Ph.D. student, CL & Hispanic Linguistics"
-    photo: "images/people/caroline_williams.png"
+    photo: "images/people/caroline_williams.jpg"
     website: "https://www.linkedin.com/in/carolineamodeo"
   - name: ["Daniel", "Swanson"]
     degree: "Ph.D. student, CL"
@@ -396,7 +396,7 @@ alumni:
     degree: "M.S., CL"
     role: "ms"
     website: "https://www.linkedin.com/in/shusuke-hashimoto-b06323224/"
-    photo: "images/people/shusuke_hashimoto.png"
+    photo: "images/people/shusuke_hashimoto.jpg"
     graduated: 2026
   - name: ["Armando", "Hull"]
     degree: "M.S., CL"
@@ -415,7 +415,7 @@ alumni:
     role: "ms"
     graduated: 2025
     website: "https://www.linkedin.com/in/beck-tabor-072561410/"
-    photo: "images/people/beck_tabor.png"
+    photo: "images/people/beck_tabor.jpg"
   - name: ["Rin", "Steitz"]
     degree: "M.S., CL"
     graduated: 2026
